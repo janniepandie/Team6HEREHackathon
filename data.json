@@ -1,42 +1,42 @@
 {
     "partition_id": "23599610",
-    "id": "urn:here::here:Topology:198120130",
+    "id": "urn:here::here:Topology:107037225",
     "confidence": {
         "simpleScores": [
             {
+                "score": 0.0,
+                "updatedOn": "2021-02-17T21:44:27.863Z",
+                "featureType": "ROAD_USAGE_FEE_REQUIRED",
+                "scoreType": "EXISTENCE",
+                "updateSource": "INJECTION_TMOB"
+            },
+            {
+                "score": 0.0,
+                "updatedOn": "2021-02-17T21:44:27.863Z",
                 "featureType": "ADAS_CURVATURE",
                 "scoreType": "EXISTENCE",
-                "score": 0.0,
-                "updateSource": "INJECTION_TMOB",
-                "updatedOn": "2021-02-17T21:44:27.863Z"
+                "updateSource": "INJECTION_TMOB"
             },
             {
+                "score": 0.0,
+                "updatedOn": "2021-02-17T21:44:27.863Z",
                 "featureType": "ADAS_SLOPE",
                 "scoreType": "EXISTENCE",
-                "score": 0.0,
-                "updateSource": "INJECTION_TMOB",
-                "updatedOn": "2021-02-17T21:44:27.863Z"
+                "updateSource": "INJECTION_TMOB"
             },
             {
+                "score": 0.0,
+                "updatedOn": "2021-02-17T21:44:27.863Z",
                 "featureType": "ADAS_ELEVATION",
                 "scoreType": "EXISTENCE",
-                "score": 0.0,
-                "updateSource": "INJECTION_TMOB",
-                "updatedOn": "2021-02-17T21:44:27.863Z"
+                "updateSource": "INJECTION_TMOB"
             },
             {
+                "score": 0.0,
+                "updatedOn": "2021-02-17T21:44:27.863Z",
                 "featureType": "ROAD_NO_OVERTAKING",
                 "scoreType": "EXISTENCE",
-                "score": 0.0,
-                "updateSource": "INJECTION_TMOB",
-                "updatedOn": "2021-02-17T21:44:27.863Z"
-            },
-            {
-                "featureType": "ROAD_TRAFFIC_SIGN",
-                "scoreType": "EXISTENCE",
-                "score": 0.0,
-                "updateSource": "INJECTION_TMOB",
-                "updatedOn": "2021-02-17T21:44:27.863Z"
+                "updateSource": "INJECTION_TMOB"
             }
         ]
     },
@@ -46,21 +46,21 @@
             {
                 "references": [
                     {
-                        "id": "urn:here::here:Topology:556871180",
+                        "id": "urn:here::here:Topology:89160019",
+                        "referenceName": "topologyId",
                         "referencePoint": {
                             "type": "Point",
                             "coordinates": [
-                                8.16771,
-                                49.14041,
+                                8.11812,
+                                49.17626,
                                 0.0
                             ]
                         },
-                        "featureType": "Topology",
-                        "referenceName": "topologyId"
+                        "featureType": "Topology"
                     }
                 ],
-                "curvature": 121,
-                "heading": 245877,
+                "curvature": 5078,
+                "heading": 161732,
                 "isComplex": false,
                 "originAttributes": {
                     "geometrySource": "MAP",
@@ -71,21 +71,21 @@
             {
                 "references": [
                     {
-                        "id": "urn:here::here:Topology:556845438",
+                        "id": "urn:here::here:Topology:160088982",
+                        "referenceName": "topologyId",
                         "referencePoint": {
                             "type": "Point",
                             "coordinates": [
-                                8.16824,
-                                49.14057,
+                                8.11718,
+                                49.17326,
                                 0.0
                             ]
                         },
-                        "featureType": "Topology",
-                        "referenceName": "topologyId"
+                        "featureType": "Topology"
                     }
                 ],
-                "curvature": -14094,
-                "heading": 264116,
+                "curvature": -460,
+                "heading": 160702,
                 "isComplex": false,
                 "originAttributes": {
                     "geometrySource": "MAP",
@@ -98,21 +98,46 @@
             {
                 "references": [
                     {
-                        "id": "urn:here::here:Topology:107037134",
+                        "id": "urn:here::here:Topology:99081916",
+                        "referenceName": "topologyId",
                         "referencePoint": {
                             "type": "Point",
                             "coordinates": [
-                                8.17514,
-                                49.14247,
+                                8.11466,
+                                49.17787,
                                 0.0
                             ]
                         },
-                        "featureType": "Topology",
-                        "referenceName": "topologyId"
+                        "featureType": "Topology"
                     }
                 ],
-                "curvature": 727,
-                "heading": 67906,
+                "curvature": 16980,
+                "heading": 334988,
+                "isComplex": false,
+                "originAttributes": {
+                    "geometrySource": "MAP",
+                    "geometryAccuracy": "HIGH_ACCURACY_GEOMETRY",
+                    "elevationSource": "UNDEFINED"
+                }
+            },
+            {
+                "references": [
+                    {
+                        "id": "urn:here::here:Topology:181380796",
+                        "referenceName": "topologyId",
+                        "referencePoint": {
+                            "type": "Point",
+                            "coordinates": [
+                                8.11466,
+                                49.17787,
+                                0.0
+                            ]
+                        },
+                        "featureType": "Topology"
+                    }
+                ],
+                "curvature": -1795,
+                "heading": 344406,
                 "isComplex": false,
                 "originAttributes": {
                     "geometrySource": "MAP",
@@ -123,100 +148,22 @@
         ],
         "points": [
             {
-                "slope": 208
+                "slope": 1273
             },
             {
-                "slope": -14,
-                "curvature": -61,
-                "heading": 66091,
-                "pointType": "VERTICAL_EXTRA"
-            },
-            {
-                "slope": 28,
-                "curvature": -1,
-                "heading": 66166,
+                "slope": 1051,
+                "curvature": -4095,
+                "heading": 342672,
                 "pointType": "UNDEFINED"
             },
             {
-                "slope": 160,
-                "curvature": 0,
-                "heading": 66044,
+                "slope": 863,
+                "curvature": 748,
+                "heading": 344015,
                 "pointType": "UNDEFINED"
             },
             {
-                "slope": 172,
-                "curvature": 0,
-                "heading": 65817,
-                "pointType": "UNDEFINED"
-            },
-            {
-                "slope": 586,
-                "curvature": -193,
-                "heading": 66071,
-                "pointType": "UNDEFINED"
-            },
-            {
-                "slope": 606,
-                "curvature": -297,
-                "heading": 66384,
-                "pointType": "UNDEFINED"
-            },
-            {
-                "slope": 454,
-                "curvature": -390,
-                "heading": 66809,
-                "pointType": "UNDEFINED"
-            },
-            {
-                "slope": 103,
-                "curvature": -463,
-                "heading": 67370,
-                "pointType": "UNDEFINED"
-            },
-            {
-                "slope": -235,
-                "curvature": -493,
-                "heading": 67932,
-                "pointType": "UNDEFINED"
-            },
-            {
-                "slope": -460,
-                "curvature": -482,
-                "heading": 68505,
-                "pointType": "UNDEFINED"
-            },
-            {
-                "slope": -572,
-                "curvature": -440,
-                "heading": 68918,
-                "pointType": "UNDEFINED"
-            },
-            {
-                "slope": -607,
-                "curvature": -416,
-                "heading": 69071,
-                "pointType": "UNDEFINED"
-            },
-            {
-                "slope": -700,
-                "curvature": -297,
-                "heading": 69517,
-                "pointType": "UNDEFINED"
-            },
-            {
-                "slope": -624,
-                "curvature": 468,
-                "heading": 69096,
-                "pointType": "UNDEFINED"
-            },
-            {
-                "slope": -514,
-                "curvature": 624,
-                "heading": 68510,
-                "pointType": "UNDEFINED"
-            },
-            {
-                "slope": -397
+                "slope": 776
             }
         ],
         "originAttributes": [
@@ -225,12 +172,12 @@
                     "endOffset": 1.0,
                     "startOffset": 0.0
                 },
-                "appliesTo": "BOTH",
                 "value": {
                     "geometrySource": "MAP",
                     "geometryAccuracy": "HIGH_ACCURACY_GEOMETRY",
                     "elevationSource": "IMU"
-                }
+                },
+                "appliesTo": "BOTH"
             }
         ]
     },
@@ -416,8 +363,8 @@
             }
         ]
     },
-    "startNodeId": "551280425",
-    "endNodeId": "604932298",
+    "startNodeId": "56871683",
+    "endNodeId": "56871688",
     "isoCC": [
         {
             "range": {
@@ -430,50 +377,47 @@
     "functionalClass": [
         {
             "confidence": {
+                "score": 0.0,
+                "updatedOn": "2021-02-17T21:44:27.863Z",
                 "featureType": "ROAD_FUNCTIONAL_CLASS",
                 "scoreType": "EXISTENCE",
-                "score": 0.0,
-                "updateSource": "INJECTION_TMOB",
-                "updatedOn": "2021-02-17T21:44:27.863Z"
+                "updateSource": "INJECTION_TMOB"
             },
             "range": {
                 "endOffset": 1.0,
                 "startOffset": 0.0
             },
-            "value": 3
+            "value": 2
         }
     ],
     "roads": [
         {
             "confidence": {
+                "score": 0.0,
+                "updatedOn": "2021-02-17T21:44:27.863Z",
                 "featureType": "ROAD_ADDRESS_RANGE",
                 "scoreType": "EXISTENCE",
-                "score": 0.0,
-                "updateSource": "INJECTION_TMOB",
-                "updatedOn": "2021-02-17T21:44:27.863Z"
+                "updateSource": "INJECTION_TMOB"
             },
             "range": {
-                "endOffset": 0.15176841856676995,
+                "endOffset": 0.36515491998838157,
                 "startOffset": 0.0
             },
-            "appliesTo": "BOTH",
             "addressedNames": [
                 {
                     "roadName": {
-                        "name": "L493",
+                        "name": "B38",
                         "languageCode": "GER",
-                        "nameType": "OFFICIAL",
                         "isExonym": false,
                         "publicationData": {
-                            "numericPublicationId": 750611003
+                            "numericPublicationId": 750608492
                         },
-                        "baseName": "L493",
+                        "baseName": "B38",
                         "attachedToBase": false,
                         "precedesBase": false,
                         "streetType": "",
-                        "routeType": 4,
-                        "roadLinkRef": "60911977",
-                        "directionOnSign": "UNDEFINED",
+                        "routeType": 3,
+                        "roadLinkRef": "499852914",
                         "nameStatus": {
                             "isCommonName": true,
                             "isExplicatable": true,
@@ -490,13 +434,12 @@
                             "isOverpassName": false,
                             "isUnderpassName": false,
                             "isNameOnRoadSign": true
-                        }
+                        },
+                        "nameType": "OFFICIAL",
+                        "directionOnSign": "UNDEFINED"
                     },
                     "addressRanges": [
                         {
-                            "type": "BASE",
-                            "leftFormat": "UNADDRESSED",
-                            "rightFormat": "UNADDRESSED",
                             "leftRange": [
                                 "",
                                 ""
@@ -505,46 +448,47 @@
                                 "",
                                 ""
                             ],
+                            "type": "BASE",
+                            "leftFormat": "UNADDRESSED",
+                            "rightFormat": "UNADDRESSED",
                             "leftScheme": "UNDEFINED",
                             "rightScheme": "UNDEFINED"
                         }
                     ],
                     "publicationData": {
-                        "numericPublicationId": 60911977
+                        "numericPublicationId": 499852914
                     }
                 }
-            ]
+            ],
+            "appliesTo": "BOTH"
         },
         {
             "confidence": {
+                "score": 0.0,
+                "updatedOn": "2021-02-17T21:44:27.863Z",
                 "featureType": "ROAD_ADDRESS_RANGE",
                 "scoreType": "EXISTENCE",
-                "score": 0.0,
-                "updateSource": "INJECTION_TMOB",
-                "updatedOn": "2021-02-17T21:44:27.863Z"
+                "updateSource": "INJECTION_TMOB"
             },
             "range": {
-                "endOffset": 0.24234019448586158,
-                "startOffset": 0.15176841856676995
+                "endOffset": 0.6390210410499787,
+                "startOffset": 0.36515491998838157
             },
-            "appliesTo": "BOTH",
             "addressedNames": [
                 {
                     "roadName": {
-                        "name": "L493",
+                        "name": "B38",
                         "languageCode": "GER",
-                        "nameType": "OFFICIAL",
                         "isExonym": false,
                         "publicationData": {
-                            "numericPublicationId": 750611003
+                            "numericPublicationId": 750608492
                         },
-                        "baseName": "L493",
+                        "baseName": "B38",
                         "attachedToBase": false,
                         "precedesBase": false,
                         "streetType": "",
-                        "routeType": 4,
-                        "roadLinkRef": "216047353",
-                        "directionOnSign": "UNDEFINED",
+                        "routeType": 3,
+                        "roadLinkRef": "499853140",
                         "nameStatus": {
                             "isCommonName": true,
                             "isExplicatable": true,
@@ -561,155 +505,12 @@
                             "isOverpassName": false,
                             "isUnderpassName": false,
                             "isNameOnRoadSign": true
-                        }
-                    },
-                    "addressRanges": [
-                        {
-                            "type": "BASE",
-                            "leftFormat": "UNADDRESSED",
-                            "rightFormat": "UNADDRESSED",
-                            "leftRange": [
-                                "",
-                                ""
-                            ],
-                            "rightRange": [
-                                "",
-                                ""
-                            ],
-                            "leftScheme": "UNDEFINED",
-                            "rightScheme": "UNDEFINED"
-                        }
-                    ],
-                    "publicationData": {
-                        "numericPublicationId": 216047353
-                    }
-                }
-            ]
-        },
-        {
-            "confidence": {
-                "featureType": "ROAD_ADDRESS_RANGE",
-                "scoreType": "EXISTENCE",
-                "score": 0.0,
-                "updateSource": "INJECTION_TMOB",
-                "updatedOn": "2021-02-17T21:44:27.863Z"
-            },
-            "range": {
-                "endOffset": 0.3182238864220631,
-                "startOffset": 0.24234019448586158
-            },
-            "appliesTo": "BOTH",
-            "addressedNames": [
-                {
-                    "roadName": {
-                        "name": "L493",
-                        "languageCode": "GER",
-                        "nameType": "OFFICIAL",
-                        "isExonym": false,
-                        "publicationData": {
-                            "numericPublicationId": 750611003
                         },
-                        "baseName": "L493",
-                        "attachedToBase": false,
-                        "precedesBase": false,
-                        "streetType": "",
-                        "routeType": 4,
-                        "roadLinkRef": "593091693",
-                        "directionOnSign": "UNDEFINED",
-                        "nameStatus": {
-                            "isCommonName": true,
-                            "isExplicatable": true,
-                            "isScenicName": false,
-                            "isStaleName": false,
-                            "isVanityName": false,
-                            "isExitName": false,
-                            "isJunctionName": false,
-                            "isPostalName": false,
-                            "isBicycleRouteName": false,
-                            "isIntersectionName": false,
-                            "isTunnelName": false,
-                            "isBridgeName": false,
-                            "isOverpassName": false,
-                            "isUnderpassName": false,
-                            "isNameOnRoadSign": true
-                        }
-                    },
-                    "addressRanges": [
-                        {
-                            "type": "BASE",
-                            "leftFormat": "UNADDRESSED",
-                            "rightFormat": "UNADDRESSED",
-                            "leftRange": [
-                                "",
-                                ""
-                            ],
-                            "rightRange": [
-                                "",
-                                ""
-                            ],
-                            "leftScheme": "UNDEFINED",
-                            "rightScheme": "UNDEFINED"
-                        }
-                    ],
-                    "publicationData": {
-                        "numericPublicationId": 593091693
-                    }
-                }
-            ]
-        },
-        {
-            "confidence": {
-                "featureType": "ROAD_ADDRESS_RANGE",
-                "scoreType": "EXISTENCE",
-                "score": 0.0,
-                "updateSource": "INJECTION_TMOB",
-                "updatedOn": "2021-02-17T21:44:27.863Z"
-            },
-            "range": {
-                "endOffset": 0.7274927847154866,
-                "startOffset": 0.3182238864220631
-            },
-            "appliesTo": "BOTH",
-            "addressedNames": [
-                {
-                    "roadName": {
-                        "name": "L493",
-                        "languageCode": "GER",
                         "nameType": "OFFICIAL",
-                        "isExonym": false,
-                        "publicationData": {
-                            "numericPublicationId": 750611003
-                        },
-                        "baseName": "L493",
-                        "attachedToBase": false,
-                        "precedesBase": false,
-                        "streetType": "",
-                        "routeType": 4,
-                        "roadLinkRef": "680446467",
-                        "directionOnSign": "UNDEFINED",
-                        "nameStatus": {
-                            "isCommonName": true,
-                            "isExplicatable": true,
-                            "isScenicName": false,
-                            "isStaleName": false,
-                            "isVanityName": false,
-                            "isExitName": false,
-                            "isJunctionName": false,
-                            "isPostalName": false,
-                            "isBicycleRouteName": false,
-                            "isIntersectionName": false,
-                            "isTunnelName": false,
-                            "isBridgeName": false,
-                            "isOverpassName": false,
-                            "isUnderpassName": false,
-                            "isNameOnRoadSign": true
-                        }
+                        "directionOnSign": "UNDEFINED"
                     },
                     "addressRanges": [
                         {
-                            "type": "BASE",
-                            "leftFormat": "UNADDRESSED",
-                            "rightFormat": "UNADDRESSED",
                             "leftRange": [
                                 "",
                                 ""
@@ -718,46 +519,47 @@
                                 "",
                                 ""
                             ],
+                            "type": "BASE",
+                            "leftFormat": "UNADDRESSED",
+                            "rightFormat": "UNADDRESSED",
                             "leftScheme": "UNDEFINED",
                             "rightScheme": "UNDEFINED"
                         }
                     ],
                     "publicationData": {
-                        "numericPublicationId": 680446467
+                        "numericPublicationId": 499853140
                     }
                 }
-            ]
+            ],
+            "appliesTo": "BOTH"
         },
         {
             "confidence": {
+                "score": 0.0,
+                "updatedOn": "2021-02-17T21:44:27.863Z",
                 "featureType": "ROAD_ADDRESS_RANGE",
                 "scoreType": "EXISTENCE",
-                "score": 0.0,
-                "updateSource": "INJECTION_TMOB",
-                "updatedOn": "2021-02-17T21:44:27.863Z"
+                "updateSource": "INJECTION_TMOB"
             },
             "range": {
                 "endOffset": 1.0,
-                "startOffset": 0.7274927847154866
+                "startOffset": 0.6390210410499787
             },
-            "appliesTo": "BOTH",
             "addressedNames": [
                 {
                     "roadName": {
-                        "name": "L493",
+                        "name": "B38",
                         "languageCode": "GER",
-                        "nameType": "OFFICIAL",
                         "isExonym": false,
                         "publicationData": {
-                            "numericPublicationId": 750611003
+                            "numericPublicationId": 750608492
                         },
-                        "baseName": "L493",
+                        "baseName": "B38",
                         "attachedToBase": false,
                         "precedesBase": false,
                         "streetType": "",
-                        "routeType": 4,
-                        "roadLinkRef": "680446468",
-                        "directionOnSign": "UNDEFINED",
+                        "routeType": 3,
+                        "roadLinkRef": "499853141",
                         "nameStatus": {
                             "isCommonName": true,
                             "isExplicatable": true,
@@ -774,13 +576,12 @@
                             "isOverpassName": false,
                             "isUnderpassName": false,
                             "isNameOnRoadSign": true
-                        }
+                        },
+                        "nameType": "OFFICIAL",
+                        "directionOnSign": "UNDEFINED"
                     },
                     "addressRanges": [
                         {
-                            "type": "BASE",
-                            "leftFormat": "UNADDRESSED",
-                            "rightFormat": "UNADDRESSED",
                             "leftRange": [
                                 "",
                                 ""
@@ -789,31 +590,34 @@
                                 "",
                                 ""
                             ],
+                            "type": "BASE",
+                            "leftFormat": "UNADDRESSED",
+                            "rightFormat": "UNADDRESSED",
                             "leftScheme": "UNDEFINED",
                             "rightScheme": "UNDEFINED"
                         }
                     ],
                     "publicationData": {
-                        "numericPublicationId": 680446468
+                        "numericPublicationId": 499853141
                     }
                 }
-            ]
+            ],
+            "appliesTo": "BOTH"
         }
     ],
     "accessCharacteristics": [
         {
             "confidence": {
+                "score": 0.95,
+                "updatedOn": "2021-02-17T21:44:27.863Z",
                 "featureType": "ROAD_ACCESS_CHARACTERISTICS",
                 "scoreType": "EXISTENCE",
-                "score": 0.95,
-                "updateSource": "INJECTION_TMOB",
-                "updatedOn": "2021-02-17T21:44:27.863Z"
+                "updateSource": "INJECTION_TMOB"
             },
             "range": {
                 "endOffset": 1.0,
                 "startOffset": 0.0
             },
-            "appliesTo": "BOTH",
             "auto": true,
             "bicycle": true,
             "bus": true,
@@ -827,187 +631,149 @@
             "throughTraffic": true,
             "vehicleTypeConfidence": [
                 {
+                    "score": 0.0,
+                    "updatedOn": "2021-02-17T21:44:27.863Z",
                     "featureType": "ROAD_VEHICLE_TYPE_AUTO",
                     "scoreType": "EXISTENCE",
-                    "score": 0.0,
-                    "updateSource": "INJECTION_TMOB",
-                    "updatedOn": "2021-02-17T21:44:27.863Z"
+                    "updateSource": "INJECTION_TMOB"
                 },
                 {
-                    "featureType": "ROAD_VEHICLE_TYPE_BICYCLE",
-                    "scoreType": "EXISTENCE",
                     "score": 0.0,
-                    "updateSource": "INJECTION_TMOB",
-                    "updatedOn": "2021-02-17T21:44:27.863Z"
-                },
-                {
-                    "featureType": "ROAD_VEHICLE_TYPE_BUS",
-                    "scoreType": "EXISTENCE",
-                    "score": 0.0,
-                    "updateSource": "INJECTION_TMOB",
-                    "updatedOn": "2021-02-17T21:44:27.863Z"
-                },
-                {
-                    "featureType": "ROAD_VEHICLE_TYPE_CARPOOL",
-                    "scoreType": "EXISTENCE",
-                    "score": 0.0,
-                    "updateSource": "INJECTION_TMOB",
-                    "updatedOn": "2021-02-17T21:44:27.863Z"
-                },
-                {
-                    "featureType": "ROAD_VEHICLE_TYPE_DELIVERY",
-                    "scoreType": "EXISTENCE",
-                    "score": 0.0,
-                    "updateSource": "INJECTION_TMOB",
-                    "updatedOn": "2021-02-17T21:44:27.863Z"
-                },
-                {
-                    "featureType": "ROAD_VEHICLE_TYPE_EMERGENCY_VEHICLE",
-                    "scoreType": "EXISTENCE",
-                    "score": 0.0,
-                    "updateSource": "INJECTION_TMOB",
-                    "updatedOn": "2021-02-17T21:44:27.863Z"
-                },
-                {
+                    "updatedOn": "2021-02-17T21:44:27.863Z",
                     "featureType": "ROAD_VEHICLE_TYPE_PEDESTRIAN",
                     "scoreType": "EXISTENCE",
-                    "score": 0.0,
-                    "updateSource": "INJECTION_TMOB",
-                    "updatedOn": "2021-02-17T21:44:27.863Z"
+                    "updateSource": "INJECTION_TMOB"
                 },
                 {
-                    "featureType": "ROAD_VEHICLE_TYPE_MOTORCYCLE",
-                    "scoreType": "EXISTENCE",
                     "score": 0.0,
-                    "updateSource": "INJECTION_TMOB",
-                    "updatedOn": "2021-02-17T21:44:27.863Z"
-                },
-                {
-                    "featureType": "ROAD_VEHICLE_TYPE_TAXI",
-                    "scoreType": "EXISTENCE",
-                    "score": 0.0,
-                    "updateSource": "INJECTION_TMOB",
-                    "updatedOn": "2021-02-17T21:44:27.863Z"
-                },
-                {
+                    "updatedOn": "2021-02-17T21:44:27.863Z",
                     "featureType": "ROAD_VEHICLE_TYPE_TRUCK",
                     "scoreType": "EXISTENCE",
-                    "score": 0.0,
-                    "updateSource": "INJECTION_TMOB",
-                    "updatedOn": "2021-02-17T21:44:27.863Z"
+                    "updateSource": "INJECTION_TMOB"
                 },
                 {
+                    "score": 0.0,
+                    "updatedOn": "2021-02-17T21:44:27.863Z",
+                    "featureType": "ROAD_VEHICLE_TYPE_MOTORCYCLE",
+                    "scoreType": "EXISTENCE",
+                    "updateSource": "INJECTION_TMOB"
+                },
+                {
+                    "score": 0.0,
+                    "updatedOn": "2021-02-17T21:44:27.863Z",
+                    "featureType": "ROAD_VEHICLE_TYPE_EMERGENCY_VEHICLE",
+                    "scoreType": "EXISTENCE",
+                    "updateSource": "INJECTION_TMOB"
+                },
+                {
+                    "score": 0.0,
+                    "updatedOn": "2021-02-17T21:44:27.863Z",
+                    "featureType": "ROAD_VEHICLE_TYPE_TAXI",
+                    "scoreType": "EXISTENCE",
+                    "updateSource": "INJECTION_TMOB"
+                },
+                {
+                    "score": 0.0,
+                    "updatedOn": "2021-02-17T21:44:27.863Z",
+                    "featureType": "ROAD_VEHICLE_TYPE_BUS",
+                    "scoreType": "EXISTENCE",
+                    "updateSource": "INJECTION_TMOB"
+                },
+                {
+                    "score": 0.0,
+                    "updatedOn": "2021-02-17T21:44:27.863Z",
+                    "featureType": "ROAD_VEHICLE_TYPE_CARPOOL",
+                    "scoreType": "EXISTENCE",
+                    "updateSource": "INJECTION_TMOB"
+                },
+                {
+                    "score": 0.0,
+                    "updatedOn": "2021-02-17T21:44:27.863Z",
                     "featureType": "ROAD_VEHICLE_TYPE_THROUGH_TRAFFIC",
                     "scoreType": "EXISTENCE",
+                    "updateSource": "INJECTION_TMOB"
+                },
+                {
                     "score": 0.0,
-                    "updateSource": "INJECTION_TMOB",
-                    "updatedOn": "2021-02-17T21:44:27.863Z"
+                    "updatedOn": "2021-02-17T21:44:27.863Z",
+                    "featureType": "ROAD_VEHICLE_TYPE_BICYCLE",
+                    "scoreType": "EXISTENCE",
+                    "updateSource": "INJECTION_TMOB"
+                },
+                {
+                    "score": 0.0,
+                    "updatedOn": "2021-02-17T21:44:27.863Z",
+                    "featureType": "ROAD_VEHICLE_TYPE_DELIVERY",
+                    "scoreType": "EXISTENCE",
+                    "updateSource": "INJECTION_TMOB"
                 }
             ],
-            "isDefault": true
+            "isDefault": true,
+            "appliesTo": "BOTH"
         }
     ],
     "divider": [
         {
             "confidence": {
+                "score": 0.0,
+                "updatedOn": "2021-02-17T21:44:27.863Z",
                 "featureType": "ROAD_DIVIDER",
                 "scoreType": "EXISTENCE",
-                "score": 0.0,
-                "updateSource": "INJECTION_TMOB",
-                "updatedOn": "2021-02-17T21:44:27.863Z"
-            },
-            "range": {
-                "endOffset": 0.24234019448586158,
-                "startOffset": 0.0
-            },
-            "dividerType": "LEGAL",
-            "isDividerOpenAtStart": false,
-            "isDividerOpenAtEnd": false
-        },
-        {
-            "confidence": {
-                "featureType": "ROAD_DIVIDER",
-                "scoreType": "EXISTENCE",
-                "score": 0.0,
-                "updateSource": "INJECTION_TMOB",
-                "updatedOn": "2021-02-17T21:44:27.863Z"
-            },
-            "range": {
-                "endOffset": 0.3182238864220631,
-                "startOffset": 0.24234019448586158
-            },
-            "dividerType": "LEGAL",
-            "isDividerOpenAtStart": false,
-            "isDividerOpenAtEnd": true
-        },
-        {
-            "confidence": {
-                "featureType": "ROAD_DIVIDER",
-                "scoreType": "EXISTENCE",
-                "score": 0.0,
-                "updateSource": "INJECTION_TMOB",
-                "updatedOn": "2021-02-17T21:44:27.863Z"
+                "updateSource": "INJECTION_TMOB"
             },
             "range": {
                 "endOffset": 1.0,
-                "startOffset": 0.3182238864220631
+                "startOffset": 0.0
             },
-            "dividerType": "UNDEFINED",
             "isDividerOpenAtStart": false,
-            "isDividerOpenAtEnd": false
+            "isDividerOpenAtEnd": false,
+            "dividerType": "LEGAL"
         }
     ],
     "speedLimit": [
         {
             "confidence": {
+                "score": 0.0,
+                "updatedOn": "2020-11-01T00:00:00Z",
+                "triggeringReferences": [],
                 "featureType": "ROAD_SPEED_LIMIT",
                 "scoreType": "EXISTENCE",
-                "score": 0.0,
-                "updateSource": "INJECTION_TMOB",
-                "updatedOn": "2019-09-01T00:00:00Z"
+                "updateSource": "INJECTION_TMOB"
             },
             "range": {
-                "endOffset": 0.24234019448586158,
+                "endOffset": 1.0,
                 "startOffset": 0.0
             },
-            "appliesTo": "BOTH",
             "isUnlimited": false,
             "valueKph": 70,
+            "appliesTo": "TO_START",
             "source": "POSTED_SIGN"
         },
         {
             "confidence": {
-                "featureType": "ROAD_SPEED_LIMIT",
-                "scoreType": "EXISTENCE",
-                "score": 0.0,
-                "updateSource": "INJECTION_TMOB",
-                "updatedOn": "2019-09-01T00:00:00Z"
-            },
-            "range": {
-                "endOffset": 0.7274927847154866,
-                "startOffset": 0.24234019448586158
-            },
-            "appliesTo": "BOTH",
-            "isUnlimited": false,
-            "valueKph": 100,
-            "source": "UNPOSTED"
-        },
-        {
-            "confidence": {
-                "featureType": "ROAD_SPEED_LIMIT",
-                "scoreType": "EXISTENCE",
-                "score": 0.0,
-                "updateSource": "INJECTION_TMOB",
-                "updatedOn": "2024-08-01T00:00:00Z"
+                "score": 0.75,
+                "updatedOn": "2025-03-19T07:38:00.110697Z",
+                "triggeringReferences": [
+                    {
+                        "genericFeatureId": "urn:here::here:logicalroadsign:1621752864602196194",
+                        "momFeatureType": "LogicalRoadSign"
+                    }
+                ],
+                "sources": [
+                    "BMW_RSD"
+                ],
+                "featureType": "UNDEFINED",
+                "scoreType": "GENERIC",
+                "updateSource": "WALLE"
             },
             "range": {
                 "endOffset": 1.0,
-                "startOffset": 0.7274927847154866
+                "startOffset": 0.0
             },
-            "appliesTo": "BOTH",
             "isUnlimited": false,
-            "valueKph": 100,
-            "source": "UNPOSTED"
+            "valueKph": 70,
+            "appliesTo": "FROM_START",
+            "source": "POSTED_SIGN"
         }
     ],
     "lowMobility": [
@@ -1022,11 +788,11 @@
     "builtUpAreaRoad": [
         {
             "confidence": {
+                "score": 0.0,
+                "updatedOn": "2021-02-17T21:44:27.863Z",
                 "featureType": "ROAD_BUILT_UP_AREA",
                 "scoreType": "EXISTENCE",
-                "score": 0.0,
-                "updateSource": "INJECTION_TMOB",
-                "updatedOn": "2021-02-17T21:44:27.863Z"
+                "updateSource": "INJECTION_TMOB"
             },
             "range": {
                 "endOffset": 1.0,
@@ -1056,13 +822,11 @@
     "conditionalAttributes": [
         {
             "range": {
-                "endOffset": 0.15176841856676995,
+                "endOffset": 0.36515491998838157,
                 "startOffset": 0.0
             },
-            "appliesTo": "BOTH",
             "attributes": [
                 {
-                    "attributeType": "NO_OVERTAKING",
                     "constraints": [
                         {
                             "vehicleTypes": {
@@ -1085,36 +849,27 @@
                             "direction": "BOTH"
                         }
                     ],
-                    "endOfLink": "WHOLE_LINK",
                     "publicationData": {
-                        "numericPublicationId": 716949874
+                        "numericPublicationId": 704964916
                     },
+                    "attributeType": "NO_OVERTAKING",
+                    "endOfLink": "WHOLE_LINK",
                     "noOvertakingDirection": "BOTH"
-                }
-            ]
-        },
-        {
-            "range": {
-                "endOffset": 0.24234019448586158,
-                "startOffset": 0.15176841856676995
-            },
-            "appliesTo": "FROM_START",
-            "attributes": [
+                },
                 {
-                    "attributeType": "TRAFFIC_SIGN",
                     "constraints": [
                         {
                             "vehicleTypes": {
-                                "auto": true,
-                                "taxi": true,
-                                "bus": true,
-                                "carpool": true,
-                                "pedestrian": true,
+                                "auto": false,
+                                "taxi": false,
+                                "bus": false,
+                                "carpool": false,
+                                "pedestrian": false,
                                 "truck": true,
-                                "throughTraffic": true,
-                                "emergencyVehicle": true,
-                                "delivery": true,
-                                "motorcycle": true,
+                                "throughTraffic": false,
+                                "emergencyVehicle": false,
+                                "delivery": false,
+                                "motorcycle": false,
                                 "bicycle": false,
                                 "hybrid": false,
                                 "alternateFuelVehicle": false,
@@ -1123,23 +878,54 @@
                             }
                         }
                     ],
-                    "endOfLink": "NON_REF_END_OF_LINK",
                     "publicationData": {
-                        "numericPublicationId": 714535942
+                        "numericPublicationId": 1631660925
                     },
-                    "signType": "END_OF_ALL_RESTRICTIONS"
+                    "tollFeatureType": 1,
+                    "tollSystemType": 5200,
+                    "attributeType": "USAGE_FEE_REQUIRED",
+                    "endOfLink": "WHOLE_LINK"
                 }
-            ]
+            ],
+            "appliesTo": "BOTH"
         },
         {
             "range": {
-                "endOffset": 0.24234019448586158,
-                "startOffset": 0.15176841856676995
+                "endOffset": 0.6390210410499787,
+                "startOffset": 0.36515491998838157
             },
-            "appliesTo": "BOTH",
             "attributes": [
                 {
-                    "attributeType": "NO_OVERTAKING",
+                    "constraints": [
+                        {
+                            "vehicleTypes": {
+                                "auto": false,
+                                "taxi": false,
+                                "bus": false,
+                                "carpool": false,
+                                "pedestrian": false,
+                                "truck": true,
+                                "throughTraffic": false,
+                                "emergencyVehicle": false,
+                                "delivery": false,
+                                "motorcycle": false,
+                                "bicycle": false,
+                                "hybrid": false,
+                                "alternateFuelVehicle": false,
+                                "autoWithTrailer": false,
+                                "autoTowingCaravan": false
+                            }
+                        }
+                    ],
+                    "publicationData": {
+                        "numericPublicationId": 1631575740
+                    },
+                    "tollFeatureType": 1,
+                    "tollSystemType": 5200,
+                    "attributeType": "USAGE_FEE_REQUIRED",
+                    "endOfLink": "WHOLE_LINK"
+                },
+                {
                     "constraints": [
                         {
                             "vehicleTypes": {
@@ -1162,23 +948,23 @@
                             "direction": "BOTH"
                         }
                     ],
-                    "endOfLink": "WHOLE_LINK",
                     "publicationData": {
-                        "numericPublicationId": 716949875
+                        "numericPublicationId": 1610775905
                     },
+                    "attributeType": "NO_OVERTAKING",
+                    "endOfLink": "WHOLE_LINK",
                     "noOvertakingDirection": "BOTH"
                 }
-            ]
+            ],
+            "appliesTo": "BOTH"
         },
         {
             "range": {
-                "endOffset": 0.3182238864220631,
-                "startOffset": 0.24234019448586158
+                "endOffset": 1.0,
+                "startOffset": 0.6390210410499787
             },
-            "appliesTo": "TO_START",
             "attributes": [
                 {
-                    "attributeType": "TRAFFIC_SIGN",
                     "constraints": [
                         {
                             "vehicleTypes": {
@@ -1197,16 +983,49 @@
                                 "alternateFuelVehicle": false,
                                 "autoWithTrailer": false,
                                 "autoTowingCaravan": false
+                            },
+                            "direction": "BOTH"
+                        }
+                    ],
+                    "publicationData": {
+                        "numericPublicationId": 1610775910
+                    },
+                    "attributeType": "NO_OVERTAKING",
+                    "endOfLink": "WHOLE_LINK",
+                    "noOvertakingDirection": "BOTH"
+                },
+                {
+                    "constraints": [
+                        {
+                            "vehicleTypes": {
+                                "auto": false,
+                                "taxi": false,
+                                "bus": false,
+                                "carpool": false,
+                                "pedestrian": false,
+                                "truck": true,
+                                "throughTraffic": false,
+                                "emergencyVehicle": false,
+                                "delivery": false,
+                                "motorcycle": false,
+                                "bicycle": false,
+                                "hybrid": false,
+                                "alternateFuelVehicle": false,
+                                "autoWithTrailer": false,
+                                "autoTowingCaravan": false
                             }
                         }
                     ],
-                    "endOfLink": "REF_END_OF_LINK",
                     "publicationData": {
-                        "numericPublicationId": 716949886
+                        "numericPublicationId": 1631575749
                     },
-                    "signType": "START_OF_NO_OVERTAKING"
+                    "tollFeatureType": 1,
+                    "tollSystemType": 5200,
+                    "attributeType": "USAGE_FEE_REQUIRED",
+                    "endOfLink": "WHOLE_LINK"
                 }
-            ]
+            ],
+            "appliesTo": "BOTH"
         }
     ],
     "truckRoadType": [
@@ -1226,12 +1045,12 @@
                 "startOffset": 0.0
             },
             "value": {
+                "sourceData": "",
                 "protectionType": "UNDEFINED",
                 "directionOverride": "NOT_APPLICABLE",
                 "accessOverride": "UNDEFINED",
                 "path": "UNDEFINED",
-                "trailDifficulty": "UNDEFINED",
-                "sourceData": ""
+                "trailDifficulty": "UNDEFINED"
             }
         }
     ],
@@ -1241,8 +1060,8 @@
                 "endOffset": 1.0,
                 "startOffset": 0.0
             },
-            "appliesTo": "BOTH",
-            "value": 5
+            "value": 5,
+            "appliesTo": "BOTH"
         }
     ],
     "infrastructureSeparation": null,
@@ -1251,11 +1070,11 @@
         "isUrban": [
             {
                 "confidence": {
+                    "score": 0.0,
+                    "updatedOn": "2021-02-17T21:44:27.863Z",
                     "featureType": "ROAD_URBAN",
                     "scoreType": "EXISTENCE",
-                    "score": 0.0,
-                    "updateSource": "INJECTION_TMOB",
-                    "updatedOn": "2021-02-17T21:44:27.863Z"
+                    "updateSource": "INJECTION_TMOB"
                 },
                 "range": {
                     "endOffset": 1.0,
@@ -1276,11 +1095,11 @@
         "isTransportVerified": [
             {
                 "confidence": {
+                    "score": 0.0,
+                    "updatedOn": "2021-02-17T21:44:27.863Z",
                     "featureType": "ROAD_TRANSPORT_VERIFIED",
                     "scoreType": "EXISTENCE",
-                    "score": 0.0,
-                    "updateSource": "INJECTION_TMOB",
-                    "updatedOn": "2021-02-17T21:44:27.863Z"
+                    "updateSource": "INJECTION_TMOB"
                 },
                 "range": {
                     "endOffset": 1.0,
@@ -1292,11 +1111,11 @@
         "isPaved": [
             {
                 "confidence": {
+                    "score": 0.0,
+                    "updatedOn": "2021-02-17T21:44:27.863Z",
                     "featureType": "ROAD_PAVED",
                     "scoreType": "EXISTENCE",
-                    "score": 0.0,
-                    "updateSource": "INJECTION_TMOB",
-                    "updatedOn": "2021-02-17T21:44:27.863Z"
+                    "updateSource": "INJECTION_TMOB"
                 },
                 "range": {
                     "endOffset": 1.0,
@@ -1335,11 +1154,11 @@
         "isBoatFerry": [
             {
                 "confidence": {
+                    "score": 0.0,
+                    "updatedOn": "2021-02-17T21:44:27.863Z",
                     "featureType": "ROAD_FERRY",
                     "scoreType": "EXISTENCE",
-                    "score": 0.0,
-                    "updateSource": "INJECTION_TMOB",
-                    "updatedOn": "2021-02-17T21:44:27.863Z"
+                    "updateSource": "INJECTION_TMOB"
                 },
                 "range": {
                     "endOffset": 1.0,
@@ -1351,11 +1170,11 @@
         "isRailFerry": [
             {
                 "confidence": {
+                    "score": 0.0,
+                    "updatedOn": "2021-02-17T21:44:27.863Z",
                     "featureType": "ROAD_FERRY",
                     "scoreType": "EXISTENCE",
-                    "score": 0.0,
-                    "updateSource": "INJECTION_TMOB",
-                    "updatedOn": "2021-02-17T21:44:27.863Z"
+                    "updateSource": "INJECTION_TMOB"
                 },
                 "range": {
                     "endOffset": 1.0,
@@ -1385,11 +1204,11 @@
         "isFrontage": [
             {
                 "confidence": {
+                    "score": 0.0,
+                    "updatedOn": "2021-02-17T21:44:27.863Z",
                     "featureType": "ROAD_FRONTAGE",
                     "scoreType": "EXISTENCE",
-                    "score": 0.0,
-                    "updateSource": "INJECTION_TMOB",
-                    "updatedOn": "2021-02-17T21:44:27.863Z"
+                    "updateSource": "INJECTION_TMOB"
                 },
                 "range": {
                     "endOffset": 1.0,
@@ -1401,11 +1220,11 @@
         "isMultiplyDigitised": [
             {
                 "confidence": {
+                    "score": 0.0,
+                    "updatedOn": "2021-02-17T21:44:27.863Z",
                     "featureType": "ROAD_MULTIPLY_DIGITIZED",
                     "scoreType": "EXISTENCE",
-                    "score": 0.0,
-                    "updateSource": "INJECTION_TMOB",
-                    "updatedOn": "2021-02-17T21:44:27.863Z"
+                    "updateSource": "INJECTION_TMOB"
                 },
                 "range": {
                     "endOffset": 1.0,
@@ -1417,11 +1236,11 @@
         "isPublicAccessRoad": [
             {
                 "confidence": {
+                    "score": 0.0,
+                    "updatedOn": "2021-02-17T21:44:27.863Z",
                     "featureType": "ROAD_PUBLIC_ACCESS",
                     "scoreType": "EXISTENCE",
-                    "score": 0.0,
-                    "updateSource": "INJECTION_TMOB",
-                    "updatedOn": "2021-02-17T21:44:27.863Z"
+                    "updateSource": "INJECTION_TMOB"
                 },
                 "range": {
                     "endOffset": 1.0,
@@ -1451,11 +1270,11 @@
         "isBridge": [
             {
                 "confidence": {
+                    "score": 0.95,
+                    "updatedOn": "2021-02-17T21:44:27.863Z",
                     "featureType": "ROAD_BRIDGE",
                     "scoreType": "EXISTENCE",
-                    "score": 0.95,
-                    "updateSource": "INJECTION_TMOB",
-                    "updatedOn": "2021-02-17T21:44:27.863Z"
+                    "updateSource": "INJECTION_TMOB"
                 },
                 "range": {
                     "endOffset": 1.0,
@@ -1467,11 +1286,11 @@
         "isTunnel": [
             {
                 "confidence": {
+                    "score": 0.95,
+                    "updatedOn": "2021-02-17T21:44:27.863Z",
                     "featureType": "ROAD_TUNNEL",
                     "scoreType": "EXISTENCE",
-                    "score": 0.95,
-                    "updateSource": "INJECTION_TMOB",
-                    "updatedOn": "2021-02-17T21:44:27.863Z"
+                    "updateSource": "INJECTION_TMOB"
                 },
                 "range": {
                     "endOffset": 1.0,
@@ -1483,11 +1302,11 @@
         "isRamp": [
             {
                 "confidence": {
+                    "score": 0.95,
+                    "updatedOn": "2021-02-17T21:44:27.863Z",
                     "featureType": "ROAD_RAMP",
                     "scoreType": "EXISTENCE",
-                    "score": 0.95,
-                    "updateSource": "INJECTION_TMOB",
-                    "updatedOn": "2021-02-17T21:44:27.863Z"
+                    "updateSource": "INJECTION_TMOB"
                 },
                 "range": {
                     "endOffset": 1.0,
@@ -1499,11 +1318,11 @@
         "isLimitedAccessRoad": [
             {
                 "confidence": {
+                    "score": 0.95,
+                    "updatedOn": "2021-02-17T21:44:27.863Z",
                     "featureType": "ROAD_LIMITED_ACCESS",
                     "scoreType": "EXISTENCE",
-                    "score": 0.95,
-                    "updateSource": "INJECTION_TMOB",
-                    "updatedOn": "2021-02-17T21:44:27.863Z"
+                    "updateSource": "INJECTION_TMOB"
                 },
                 "range": {
                     "endOffset": 1.0,
@@ -1515,11 +1334,11 @@
         "isControlledAccess": [
             {
                 "confidence": {
+                    "score": 0.04,
+                    "updatedOn": "2021-02-17T21:44:27.863Z",
                     "featureType": "ROAD_CONTROLLED_ACCESS",
                     "scoreType": "EXISTENCE",
-                    "score": 0.04,
-                    "updateSource": "INJECTION_TMOB",
-                    "updatedOn": "2021-02-17T21:44:27.863Z"
+                    "updateSource": "INJECTION_TMOB"
                 },
                 "range": {
                     "endOffset": 1.0,
@@ -1540,11 +1359,11 @@
         "isPrivateRoad": [
             {
                 "confidence": {
+                    "score": 0.0,
+                    "updatedOn": "2021-02-17T21:44:27.863Z",
                     "featureType": "ROAD_PRIVATE",
                     "scoreType": "EXISTENCE",
-                    "score": 0.0,
-                    "updateSource": "INJECTION_TMOB",
-                    "updatedOn": "2021-02-17T21:44:27.863Z"
+                    "updateSource": "INJECTION_TMOB"
                 },
                 "range": {
                     "endOffset": 1.0,
@@ -1565,11 +1384,11 @@
         "isPoiAccessRoad": [
             {
                 "confidence": {
+                    "score": 0.95,
+                    "updatedOn": "2021-02-17T21:44:27.863Z",
                     "featureType": "ROAD_POI_ACCESS_ROAD",
                     "scoreType": "EXISTENCE",
-                    "score": 0.95,
-                    "updateSource": "INJECTION_TMOB",
-                    "updatedOn": "2021-02-17T21:44:27.863Z"
+                    "updateSource": "INJECTION_TMOB"
                 },
                 "range": {
                     "endOffset": 1.0,
@@ -1676,8 +1495,8 @@
                 "endOffset": 1.0,
                 "startOffset": 0.0
             },
-            "appliesTo": "BOTH",
-            "valueKph": 60
+            "valueKph": 60,
+            "appliesTo": "BOTH"
         }
     ],
     "pedestrianPreferred": [
@@ -1702,40 +1521,40 @@
     "leftAdmin": [
         {
             "confidence": {
+                "score": 0.0,
+                "updatedOn": "2021-02-17T21:44:27.863Z",
                 "featureType": "ROAD_ADMIN_INFORMATION",
                 "scoreType": "EXISTENCE",
-                "score": 0.0,
-                "updateSource": "INJECTION_TMOB",
-                "updatedOn": "2021-02-17T21:44:27.863Z"
+                "updateSource": "INJECTION_TMOB"
             },
             "range": {
                 "endOffset": 1.0,
                 "startOffset": 0.0
             },
             "value": {
-                "id": "urn:here::here:Admin:20170782",
-                "featureType": "Admin",
-                "referenceName": "adminId"
+                "id": "urn:here::here:Admin:20169372",
+                "referenceName": "adminId",
+                "featureType": "Admin"
             }
         }
     ],
     "rightAdmin": [
         {
             "confidence": {
+                "score": 0.0,
+                "updatedOn": "2021-02-17T21:44:27.863Z",
                 "featureType": "ROAD_ADMIN_INFORMATION",
                 "scoreType": "EXISTENCE",
-                "score": 0.0,
-                "updateSource": "INJECTION_TMOB",
-                "updatedOn": "2021-02-17T21:44:27.863Z"
+                "updateSource": "INJECTION_TMOB"
             },
             "range": {
                 "endOffset": 1.0,
                 "startOffset": 0.0
             },
             "value": {
-                "id": "urn:here::here:Admin:20170782",
-                "featureType": "Admin",
-                "referenceName": "adminId"
+                "id": "urn:here::here:Admin:20169372",
+                "referenceName": "adminId",
+                "featureType": "Admin"
             }
         }
     ],
@@ -1743,11 +1562,11 @@
     "linkAccuracy": [
         {
             "confidence": {
+                "score": 0.0,
+                "updatedOn": "2021-02-17T21:44:27.863Z",
                 "featureType": "ROAD_LINK_ACCURACY",
                 "scoreType": "EXISTENCE",
-                "score": 0.0,
-                "updateSource": "INJECTION_TMOB",
-                "updatedOn": "2021-02-17T21:44:27.863Z"
+                "updateSource": "INJECTION_TMOB"
             },
             "range": {
                 "endOffset": 1.0,
@@ -1759,9 +1578,9 @@
     "superElevationClass": [
         {
             "confidence": {
+                "score": 0.0,
                 "featureType": "ROAD_SUPERELEVATION_CLASS",
                 "scoreType": "EXISTENCE",
-                "score": 0.0,
                 "updateSource": "INJECTION_TMOB"
             },
             "range": {
@@ -1777,7 +1596,14 @@
                 "endOffset": 1.0,
                 "startOffset": 0.0
             },
-            "value": []
+            "value": [
+                {
+                    "locationTableNumber": "01",
+                    "locationCode": "23126",
+                    "tmcPathDirection": "N",
+                    "roadDirection": "T"
+                }
+            ]
         }
     ],
     "trafficLocationReferences": [
@@ -1785,7 +1611,21 @@
             "range": {
                 "endOffset": 1.0,
                 "startOffset": 0.0
-            }
+            },
+            "value": [
+                {
+                    "trafficCode": [
+                        {
+                            "locationTableNumber": "01",
+                            "locationCode": "23126",
+                            "trafficCodeType": "RDS_TMC",
+                            "pathDirection": "N",
+                            "roadDirection": "T"
+                        }
+                    ],
+                    "roadKind": "URBAN_EXPRESSWAY"
+                }
+            ]
         }
     ],
     "topologyClassType": [
@@ -1800,103 +1640,63 @@
     "externalReferences": [
         {
             "segment": {
-                "id": "urn:here::here:Road:703708793",
+                "id": "urn:here::here:Road:1190484279",
+                "referenceName": "roadId",
                 "referencePoint": {
                     "type": "Point",
                     "coordinates": [
-                        8.16824,
-                        49.14057,
+                        8.11487,
+                        49.17743,
                         0.0
                     ]
                 },
-                "featureType": "Road",
-                "referenceName": "roadId"
+                "featureType": "Road"
             },
-            "orientation": "FROM_FIRST",
             "range": {
-                "endOffset": 0.15176841856676995,
+                "endOffset": 0.36515491998838157,
                 "startOffset": 0.0
-            }
+            },
+            "orientation": "FROM_FIRST"
         },
         {
             "segment": {
-                "id": "urn:here::here:Road:832841018",
+                "id": "urn:here::here:Road:1190484500",
+                "referenceName": "roadId",
                 "referencePoint": {
                     "type": "Point",
                     "coordinates": [
-                        8.16928,
-                        49.14087,
+                        8.11479,
+                        49.17759,
                         0.0
                     ]
                 },
-                "featureType": "Road",
-                "referenceName": "roadId"
+                "featureType": "Road"
             },
-            "orientation": "FROM_FIRST",
             "range": {
-                "endOffset": 0.24234019448586158,
-                "startOffset": 0.15176841856676995
-            }
+                "endOffset": 0.6390210410499787,
+                "startOffset": 0.36515491998838157
+            },
+            "orientation": "FROM_FIRST"
         },
         {
             "segment": {
-                "id": "urn:here::here:Road:1266512906",
+                "id": "urn:here::here:Road:1190484501",
+                "referenceName": "roadId",
                 "referencePoint": {
                     "type": "Point",
                     "coordinates": [
-                        8.1699,
-                        49.14105,
+                        8.11473,
+                        49.17771,
                         0.0
                     ]
                 },
-                "featureType": "Road",
-                "referenceName": "roadId"
+                "featureType": "Road"
             },
-            "orientation": "FROM_FIRST",
-            "range": {
-                "endOffset": 0.3182238864220631,
-                "startOffset": 0.24234019448586158
-            }
-        },
-        {
-            "segment": {
-                "id": "urn:here::here:Road:1337170472",
-                "referencePoint": {
-                    "type": "Point",
-                    "coordinates": [
-                        8.17042,
-                        49.1412,
-                        0.0
-                    ]
-                },
-                "featureType": "Road",
-                "referenceName": "roadId"
-            },
-            "orientation": "FROM_FIRST",
-            "range": {
-                "endOffset": 0.7274927847154866,
-                "startOffset": 0.3182238864220631
-            }
-        },
-        {
-            "segment": {
-                "id": "urn:here::here:Road:1337170473",
-                "referencePoint": {
-                    "type": "Point",
-                    "coordinates": [
-                        8.17323,
-                        49.142,
-                        0.0
-                    ]
-                },
-                "featureType": "Road",
-                "referenceName": "roadId"
-            },
-            "orientation": "FROM_FIRST",
             "range": {
                 "endOffset": 1.0,
-                "startOffset": 0.7274927847154866
-            }
+                "startOffset": 0.6390210410499787
+            },
+            "orientation": "FROM_FIRST"
         }
     ],
     "gnssReliability": null,
@@ -1922,34 +1722,40 @@
     "priority": [
         {
             "confidence": {
+                "score": 0.0,
+                "updatedOn": "2021-02-17T21:44:27.863Z",
                 "featureType": "UNDEFINED",
                 "scoreType": "EXISTENCE",
-                "score": 0.0,
-                "updateSource": "INJECTION_TMOB",
-                "updatedOn": "2021-02-17T21:44:27.863Z"
+                "updateSource": "INJECTION_TMOB"
             },
             "range": {
                 "endOffset": 1.0,
                 "startOffset": 0.0
             },
-            "appliesTo": "BOTH",
             "value": true,
+            "appliesTo": "BOTH",
             "source": "PR_SIGN"
         }
     ],
     "startNodePublicationId": {
-        "numericPublicationId": 551280425
+        "numericPublicationId": 56871683
     },
     "endNodePublicationId": {
-        "numericPublicationId": 604932298
+        "numericPublicationId": 56871688
     },
     "@ns:com:here:mom:meta": {
-        "owner": "topology_adapter_service",
-        "lastUpdatedBy": "topology_adapter_service",
+        "owner": "ffw-road-attribute-derivation-service",
+        "lastUpdatedTS": "2025-03-19T07:54:58.215164Z",
+        "lastUpdatedBy": "ffw-road-attribute-derivation-service",
         "updatedByUser": "topology_adapter_service",
-        "modelVersion": "3.15.1-backport-iso-country-code",
-        "sourceId": "TMOB"
+        "updatedByApp": "ffw-road-attribute-derivation-service",
+        "modelVersion": "3.10.0",
+        "sourceId": "urn:here::here:logicalroadsign:1621752864602196194",
+        "operation": "UPDATED"
     },
     "featureType": "Topology",
-    "@ns:com:here:mom:delta": null
+    "@ns:com:here:mom:delta": {
+        "reviewState": "AUTO_ENDORSED",
+        "changeState": "UPDATED"
+    }
 }
