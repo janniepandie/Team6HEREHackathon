@@ -1,0 +1,1955 @@
+{
+    "partition_id": "23599610",
+    "id": "urn:here::here:Topology:198120130",
+    "confidence": {
+        "simpleScores": [
+            {
+                "featureType": "ADAS_CURVATURE",
+                "scoreType": "EXISTENCE",
+                "score": 0.0,
+                "updateSource": "INJECTION_TMOB",
+                "updatedOn": "2021-02-17T21:44:27.863Z"
+            },
+            {
+                "featureType": "ADAS_SLOPE",
+                "scoreType": "EXISTENCE",
+                "score": 0.0,
+                "updateSource": "INJECTION_TMOB",
+                "updatedOn": "2021-02-17T21:44:27.863Z"
+            },
+            {
+                "featureType": "ADAS_ELEVATION",
+                "scoreType": "EXISTENCE",
+                "score": 0.0,
+                "updateSource": "INJECTION_TMOB",
+                "updatedOn": "2021-02-17T21:44:27.863Z"
+            },
+            {
+                "featureType": "ROAD_NO_OVERTAKING",
+                "scoreType": "EXISTENCE",
+                "score": 0.0,
+                "updateSource": "INJECTION_TMOB",
+                "updatedOn": "2021-02-17T21:44:27.863Z"
+            },
+            {
+                "featureType": "ROAD_TRAFFIC_SIGN",
+                "scoreType": "EXISTENCE",
+                "score": 0.0,
+                "updateSource": "INJECTION_TMOB",
+                "updatedOn": "2021-02-17T21:44:27.863Z"
+            }
+        ]
+    },
+    "zLevel": null,
+    "adasTopology": {
+        "startNodeTraversals": [
+            {
+                "references": [
+                    {
+                        "id": "urn:here::here:Topology:556871180",
+                        "referencePoint": {
+                            "type": "Point",
+                            "coordinates": [
+                                8.16771,
+                                49.14041,
+                                0.0
+                            ]
+                        },
+                        "featureType": "Topology",
+                        "referenceName": "topologyId"
+                    }
+                ],
+                "curvature": 121,
+                "heading": 245877,
+                "isComplex": false,
+                "originAttributes": {
+                    "geometrySource": "MAP",
+                    "geometryAccuracy": "HIGH_ACCURACY_GEOMETRY",
+                    "elevationSource": "UNDEFINED"
+                }
+            },
+            {
+                "references": [
+                    {
+                        "id": "urn:here::here:Topology:556845438",
+                        "referencePoint": {
+                            "type": "Point",
+                            "coordinates": [
+                                8.16824,
+                                49.14057,
+                                0.0
+                            ]
+                        },
+                        "featureType": "Topology",
+                        "referenceName": "topologyId"
+                    }
+                ],
+                "curvature": -14094,
+                "heading": 264116,
+                "isComplex": false,
+                "originAttributes": {
+                    "geometrySource": "MAP",
+                    "geometryAccuracy": "HIGH_ACCURACY_GEOMETRY",
+                    "elevationSource": "UNDEFINED"
+                }
+            }
+        ],
+        "endNodeTraversals": [
+            {
+                "references": [
+                    {
+                        "id": "urn:here::here:Topology:107037134",
+                        "referencePoint": {
+                            "type": "Point",
+                            "coordinates": [
+                                8.17514,
+                                49.14247,
+                                0.0
+                            ]
+                        },
+                        "featureType": "Topology",
+                        "referenceName": "topologyId"
+                    }
+                ],
+                "curvature": 727,
+                "heading": 67906,
+                "isComplex": false,
+                "originAttributes": {
+                    "geometrySource": "MAP",
+                    "geometryAccuracy": "HIGH_ACCURACY_GEOMETRY",
+                    "elevationSource": "UNDEFINED"
+                }
+            }
+        ],
+        "points": [
+            {
+                "slope": 208
+            },
+            {
+                "slope": -14,
+                "curvature": -61,
+                "heading": 66091,
+                "pointType": "VERTICAL_EXTRA"
+            },
+            {
+                "slope": 28,
+                "curvature": -1,
+                "heading": 66166,
+                "pointType": "UNDEFINED"
+            },
+            {
+                "slope": 160,
+                "curvature": 0,
+                "heading": 66044,
+                "pointType": "UNDEFINED"
+            },
+            {
+                "slope": 172,
+                "curvature": 0,
+                "heading": 65817,
+                "pointType": "UNDEFINED"
+            },
+            {
+                "slope": 586,
+                "curvature": -193,
+                "heading": 66071,
+                "pointType": "UNDEFINED"
+            },
+            {
+                "slope": 606,
+                "curvature": -297,
+                "heading": 66384,
+                "pointType": "UNDEFINED"
+            },
+            {
+                "slope": 454,
+                "curvature": -390,
+                "heading": 66809,
+                "pointType": "UNDEFINED"
+            },
+            {
+                "slope": 103,
+                "curvature": -463,
+                "heading": 67370,
+                "pointType": "UNDEFINED"
+            },
+            {
+                "slope": -235,
+                "curvature": -493,
+                "heading": 67932,
+                "pointType": "UNDEFINED"
+            },
+            {
+                "slope": -460,
+                "curvature": -482,
+                "heading": 68505,
+                "pointType": "UNDEFINED"
+            },
+            {
+                "slope": -572,
+                "curvature": -440,
+                "heading": 68918,
+                "pointType": "UNDEFINED"
+            },
+            {
+                "slope": -607,
+                "curvature": -416,
+                "heading": 69071,
+                "pointType": "UNDEFINED"
+            },
+            {
+                "slope": -700,
+                "curvature": -297,
+                "heading": 69517,
+                "pointType": "UNDEFINED"
+            },
+            {
+                "slope": -624,
+                "curvature": 468,
+                "heading": 69096,
+                "pointType": "UNDEFINED"
+            },
+            {
+                "slope": -514,
+                "curvature": 624,
+                "heading": 68510,
+                "pointType": "UNDEFINED"
+            },
+            {
+                "slope": -397
+            }
+        ],
+        "originAttributes": [
+            {
+                "range": {
+                    "endOffset": 1.0,
+                    "startOffset": 0.0
+                },
+                "appliesTo": "BOTH",
+                "value": {
+                    "geometrySource": "MAP",
+                    "geometryAccuracy": "HIGH_ACCURACY_GEOMETRY",
+                    "elevationSource": "IMU"
+                }
+            }
+        ]
+    },
+    "intersectionCategory": [
+        {
+            "range": {
+                "endOffset": 1.0,
+                "startOffset": 0.0
+            },
+            "value": "NA"
+        }
+    ],
+    "offroadFlags": {
+        "isRaceTrack": [
+            {
+                "range": {
+                    "endOffset": 1.0,
+                    "startOffset": 0.0
+                },
+                "value": false
+            }
+        ],
+        "isUndeterminedGeometryType": [
+            {
+                "range": {
+                    "endOffset": 1.0,
+                    "startOffset": 0.0
+                },
+                "value": false
+            }
+        ],
+        "isDriveway": [
+            {
+                "range": {
+                    "endOffset": 1.0,
+                    "startOffset": 0.0
+                },
+                "value": false
+            }
+        ],
+        "isAlley": [
+            {
+                "range": {
+                    "endOffset": 1.0,
+                    "startOffset": 0.0
+                },
+                "value": false
+            }
+        ],
+        "isBicyclePath": [
+            {
+                "range": {
+                    "endOffset": 1.0,
+                    "startOffset": 0.0
+                },
+                "value": false
+            }
+        ],
+        "isWalkingPath": [
+            {
+                "range": {
+                    "endOffset": 1.0,
+                    "startOffset": 0.0
+                },
+                "value": false
+            }
+        ],
+        "isPrivateRoadForServiceVehicle": [
+            {
+                "range": {
+                    "endOffset": 1.0,
+                    "startOffset": 0.0
+                },
+                "value": false
+            }
+        ],
+        "isMountainBikeTrail": [
+            {
+                "range": {
+                    "endOffset": 1.0,
+                    "startOffset": 0.0
+                },
+                "value": false
+            }
+        ],
+        "isHikingTrail": [
+            {
+                "range": {
+                    "endOffset": 1.0,
+                    "startOffset": 0.0
+                },
+                "value": false
+            }
+        ],
+        "isCrossCountrySkiTrail": [
+            {
+                "range": {
+                    "endOffset": 1.0,
+                    "startOffset": 0.0
+                },
+                "value": false
+            }
+        ],
+        "isGolfCourseTrail": [
+            {
+                "range": {
+                    "endOffset": 1.0,
+                    "startOffset": 0.0
+                },
+                "value": false
+            }
+        ],
+        "isSkiRun": [
+            {
+                "range": {
+                    "endOffset": 1.0,
+                    "startOffset": 0.0
+                },
+                "value": false
+            }
+        ],
+        "isSkiLift": [
+            {
+                "range": {
+                    "endOffset": 1.0,
+                    "startOffset": 0.0
+                },
+                "value": false
+            }
+        ],
+        "isRunningTrack": [
+            {
+                "range": {
+                    "endOffset": 1.0,
+                    "startOffset": 0.0
+                },
+                "value": false
+            }
+        ],
+        "isBmxTrack": [
+            {
+                "range": {
+                    "endOffset": 1.0,
+                    "startOffset": 0.0
+                },
+                "value": false
+            }
+        ],
+        "isHorseTrail": [
+            {
+                "range": {
+                    "endOffset": 1.0,
+                    "startOffset": 0.0
+                },
+                "value": false
+            }
+        ],
+        "isOutdoorActivityRoad": [
+            {
+                "range": {
+                    "endOffset": 1.0,
+                    "startOffset": 0.0
+                },
+                "value": false
+            }
+        ],
+        "isOilFieldRoad": [
+            {
+                "range": {
+                    "endOffset": 1.0,
+                    "startOffset": 0.0
+                },
+                "value": false
+            }
+        ],
+        "isOutdoorActivityAccess": [
+            {
+                "range": {
+                    "endOffset": 1.0,
+                    "startOffset": 0.0
+                },
+                "value": false
+            }
+        ]
+    },
+    "startNodeId": "551280425",
+    "endNodeId": "604932298",
+    "isoCC": [
+        {
+            "range": {
+                "endOffset": 1.0,
+                "startOffset": 0.0
+            },
+            "value": "DEU"
+        }
+    ],
+    "functionalClass": [
+        {
+            "confidence": {
+                "featureType": "ROAD_FUNCTIONAL_CLASS",
+                "scoreType": "EXISTENCE",
+                "score": 0.0,
+                "updateSource": "INJECTION_TMOB",
+                "updatedOn": "2021-02-17T21:44:27.863Z"
+            },
+            "range": {
+                "endOffset": 1.0,
+                "startOffset": 0.0
+            },
+            "value": 3
+        }
+    ],
+    "roads": [
+        {
+            "confidence": {
+                "featureType": "ROAD_ADDRESS_RANGE",
+                "scoreType": "EXISTENCE",
+                "score": 0.0,
+                "updateSource": "INJECTION_TMOB",
+                "updatedOn": "2021-02-17T21:44:27.863Z"
+            },
+            "range": {
+                "endOffset": 0.15176841856676995,
+                "startOffset": 0.0
+            },
+            "appliesTo": "BOTH",
+            "addressedNames": [
+                {
+                    "roadName": {
+                        "name": "L493",
+                        "languageCode": "GER",
+                        "nameType": "OFFICIAL",
+                        "isExonym": false,
+                        "publicationData": {
+                            "numericPublicationId": 750611003
+                        },
+                        "baseName": "L493",
+                        "attachedToBase": false,
+                        "precedesBase": false,
+                        "streetType": "",
+                        "routeType": 4,
+                        "roadLinkRef": "60911977",
+                        "directionOnSign": "UNDEFINED",
+                        "nameStatus": {
+                            "isCommonName": true,
+                            "isExplicatable": true,
+                            "isScenicName": false,
+                            "isStaleName": false,
+                            "isVanityName": false,
+                            "isExitName": false,
+                            "isJunctionName": false,
+                            "isPostalName": false,
+                            "isBicycleRouteName": false,
+                            "isIntersectionName": false,
+                            "isTunnelName": false,
+                            "isBridgeName": false,
+                            "isOverpassName": false,
+                            "isUnderpassName": false,
+                            "isNameOnRoadSign": true
+                        }
+                    },
+                    "addressRanges": [
+                        {
+                            "type": "BASE",
+                            "leftFormat": "UNADDRESSED",
+                            "rightFormat": "UNADDRESSED",
+                            "leftRange": [
+                                "",
+                                ""
+                            ],
+                            "rightRange": [
+                                "",
+                                ""
+                            ],
+                            "leftScheme": "UNDEFINED",
+                            "rightScheme": "UNDEFINED"
+                        }
+                    ],
+                    "publicationData": {
+                        "numericPublicationId": 60911977
+                    }
+                }
+            ]
+        },
+        {
+            "confidence": {
+                "featureType": "ROAD_ADDRESS_RANGE",
+                "scoreType": "EXISTENCE",
+                "score": 0.0,
+                "updateSource": "INJECTION_TMOB",
+                "updatedOn": "2021-02-17T21:44:27.863Z"
+            },
+            "range": {
+                "endOffset": 0.24234019448586158,
+                "startOffset": 0.15176841856676995
+            },
+            "appliesTo": "BOTH",
+            "addressedNames": [
+                {
+                    "roadName": {
+                        "name": "L493",
+                        "languageCode": "GER",
+                        "nameType": "OFFICIAL",
+                        "isExonym": false,
+                        "publicationData": {
+                            "numericPublicationId": 750611003
+                        },
+                        "baseName": "L493",
+                        "attachedToBase": false,
+                        "precedesBase": false,
+                        "streetType": "",
+                        "routeType": 4,
+                        "roadLinkRef": "216047353",
+                        "directionOnSign": "UNDEFINED",
+                        "nameStatus": {
+                            "isCommonName": true,
+                            "isExplicatable": true,
+                            "isScenicName": false,
+                            "isStaleName": false,
+                            "isVanityName": false,
+                            "isExitName": false,
+                            "isJunctionName": false,
+                            "isPostalName": false,
+                            "isBicycleRouteName": false,
+                            "isIntersectionName": false,
+                            "isTunnelName": false,
+                            "isBridgeName": false,
+                            "isOverpassName": false,
+                            "isUnderpassName": false,
+                            "isNameOnRoadSign": true
+                        }
+                    },
+                    "addressRanges": [
+                        {
+                            "type": "BASE",
+                            "leftFormat": "UNADDRESSED",
+                            "rightFormat": "UNADDRESSED",
+                            "leftRange": [
+                                "",
+                                ""
+                            ],
+                            "rightRange": [
+                                "",
+                                ""
+                            ],
+                            "leftScheme": "UNDEFINED",
+                            "rightScheme": "UNDEFINED"
+                        }
+                    ],
+                    "publicationData": {
+                        "numericPublicationId": 216047353
+                    }
+                }
+            ]
+        },
+        {
+            "confidence": {
+                "featureType": "ROAD_ADDRESS_RANGE",
+                "scoreType": "EXISTENCE",
+                "score": 0.0,
+                "updateSource": "INJECTION_TMOB",
+                "updatedOn": "2021-02-17T21:44:27.863Z"
+            },
+            "range": {
+                "endOffset": 0.3182238864220631,
+                "startOffset": 0.24234019448586158
+            },
+            "appliesTo": "BOTH",
+            "addressedNames": [
+                {
+                    "roadName": {
+                        "name": "L493",
+                        "languageCode": "GER",
+                        "nameType": "OFFICIAL",
+                        "isExonym": false,
+                        "publicationData": {
+                            "numericPublicationId": 750611003
+                        },
+                        "baseName": "L493",
+                        "attachedToBase": false,
+                        "precedesBase": false,
+                        "streetType": "",
+                        "routeType": 4,
+                        "roadLinkRef": "593091693",
+                        "directionOnSign": "UNDEFINED",
+                        "nameStatus": {
+                            "isCommonName": true,
+                            "isExplicatable": true,
+                            "isScenicName": false,
+                            "isStaleName": false,
+                            "isVanityName": false,
+                            "isExitName": false,
+                            "isJunctionName": false,
+                            "isPostalName": false,
+                            "isBicycleRouteName": false,
+                            "isIntersectionName": false,
+                            "isTunnelName": false,
+                            "isBridgeName": false,
+                            "isOverpassName": false,
+                            "isUnderpassName": false,
+                            "isNameOnRoadSign": true
+                        }
+                    },
+                    "addressRanges": [
+                        {
+                            "type": "BASE",
+                            "leftFormat": "UNADDRESSED",
+                            "rightFormat": "UNADDRESSED",
+                            "leftRange": [
+                                "",
+                                ""
+                            ],
+                            "rightRange": [
+                                "",
+                                ""
+                            ],
+                            "leftScheme": "UNDEFINED",
+                            "rightScheme": "UNDEFINED"
+                        }
+                    ],
+                    "publicationData": {
+                        "numericPublicationId": 593091693
+                    }
+                }
+            ]
+        },
+        {
+            "confidence": {
+                "featureType": "ROAD_ADDRESS_RANGE",
+                "scoreType": "EXISTENCE",
+                "score": 0.0,
+                "updateSource": "INJECTION_TMOB",
+                "updatedOn": "2021-02-17T21:44:27.863Z"
+            },
+            "range": {
+                "endOffset": 0.7274927847154866,
+                "startOffset": 0.3182238864220631
+            },
+            "appliesTo": "BOTH",
+            "addressedNames": [
+                {
+                    "roadName": {
+                        "name": "L493",
+                        "languageCode": "GER",
+                        "nameType": "OFFICIAL",
+                        "isExonym": false,
+                        "publicationData": {
+                            "numericPublicationId": 750611003
+                        },
+                        "baseName": "L493",
+                        "attachedToBase": false,
+                        "precedesBase": false,
+                        "streetType": "",
+                        "routeType": 4,
+                        "roadLinkRef": "680446467",
+                        "directionOnSign": "UNDEFINED",
+                        "nameStatus": {
+                            "isCommonName": true,
+                            "isExplicatable": true,
+                            "isScenicName": false,
+                            "isStaleName": false,
+                            "isVanityName": false,
+                            "isExitName": false,
+                            "isJunctionName": false,
+                            "isPostalName": false,
+                            "isBicycleRouteName": false,
+                            "isIntersectionName": false,
+                            "isTunnelName": false,
+                            "isBridgeName": false,
+                            "isOverpassName": false,
+                            "isUnderpassName": false,
+                            "isNameOnRoadSign": true
+                        }
+                    },
+                    "addressRanges": [
+                        {
+                            "type": "BASE",
+                            "leftFormat": "UNADDRESSED",
+                            "rightFormat": "UNADDRESSED",
+                            "leftRange": [
+                                "",
+                                ""
+                            ],
+                            "rightRange": [
+                                "",
+                                ""
+                            ],
+                            "leftScheme": "UNDEFINED",
+                            "rightScheme": "UNDEFINED"
+                        }
+                    ],
+                    "publicationData": {
+                        "numericPublicationId": 680446467
+                    }
+                }
+            ]
+        },
+        {
+            "confidence": {
+                "featureType": "ROAD_ADDRESS_RANGE",
+                "scoreType": "EXISTENCE",
+                "score": 0.0,
+                "updateSource": "INJECTION_TMOB",
+                "updatedOn": "2021-02-17T21:44:27.863Z"
+            },
+            "range": {
+                "endOffset": 1.0,
+                "startOffset": 0.7274927847154866
+            },
+            "appliesTo": "BOTH",
+            "addressedNames": [
+                {
+                    "roadName": {
+                        "name": "L493",
+                        "languageCode": "GER",
+                        "nameType": "OFFICIAL",
+                        "isExonym": false,
+                        "publicationData": {
+                            "numericPublicationId": 750611003
+                        },
+                        "baseName": "L493",
+                        "attachedToBase": false,
+                        "precedesBase": false,
+                        "streetType": "",
+                        "routeType": 4,
+                        "roadLinkRef": "680446468",
+                        "directionOnSign": "UNDEFINED",
+                        "nameStatus": {
+                            "isCommonName": true,
+                            "isExplicatable": true,
+                            "isScenicName": false,
+                            "isStaleName": false,
+                            "isVanityName": false,
+                            "isExitName": false,
+                            "isJunctionName": false,
+                            "isPostalName": false,
+                            "isBicycleRouteName": false,
+                            "isIntersectionName": false,
+                            "isTunnelName": false,
+                            "isBridgeName": false,
+                            "isOverpassName": false,
+                            "isUnderpassName": false,
+                            "isNameOnRoadSign": true
+                        }
+                    },
+                    "addressRanges": [
+                        {
+                            "type": "BASE",
+                            "leftFormat": "UNADDRESSED",
+                            "rightFormat": "UNADDRESSED",
+                            "leftRange": [
+                                "",
+                                ""
+                            ],
+                            "rightRange": [
+                                "",
+                                ""
+                            ],
+                            "leftScheme": "UNDEFINED",
+                            "rightScheme": "UNDEFINED"
+                        }
+                    ],
+                    "publicationData": {
+                        "numericPublicationId": 680446468
+                    }
+                }
+            ]
+        }
+    ],
+    "accessCharacteristics": [
+        {
+            "confidence": {
+                "featureType": "ROAD_ACCESS_CHARACTERISTICS",
+                "scoreType": "EXISTENCE",
+                "score": 0.95,
+                "updateSource": "INJECTION_TMOB",
+                "updatedOn": "2021-02-17T21:44:27.863Z"
+            },
+            "range": {
+                "endOffset": 1.0,
+                "startOffset": 0.0
+            },
+            "appliesTo": "BOTH",
+            "auto": true,
+            "bicycle": true,
+            "bus": true,
+            "carpool": true,
+            "delivery": true,
+            "emergencyVehicle": true,
+            "pedestrian": true,
+            "motorcycle": true,
+            "taxi": true,
+            "truck": true,
+            "throughTraffic": true,
+            "vehicleTypeConfidence": [
+                {
+                    "featureType": "ROAD_VEHICLE_TYPE_AUTO",
+                    "scoreType": "EXISTENCE",
+                    "score": 0.0,
+                    "updateSource": "INJECTION_TMOB",
+                    "updatedOn": "2021-02-17T21:44:27.863Z"
+                },
+                {
+                    "featureType": "ROAD_VEHICLE_TYPE_BICYCLE",
+                    "scoreType": "EXISTENCE",
+                    "score": 0.0,
+                    "updateSource": "INJECTION_TMOB",
+                    "updatedOn": "2021-02-17T21:44:27.863Z"
+                },
+                {
+                    "featureType": "ROAD_VEHICLE_TYPE_BUS",
+                    "scoreType": "EXISTENCE",
+                    "score": 0.0,
+                    "updateSource": "INJECTION_TMOB",
+                    "updatedOn": "2021-02-17T21:44:27.863Z"
+                },
+                {
+                    "featureType": "ROAD_VEHICLE_TYPE_CARPOOL",
+                    "scoreType": "EXISTENCE",
+                    "score": 0.0,
+                    "updateSource": "INJECTION_TMOB",
+                    "updatedOn": "2021-02-17T21:44:27.863Z"
+                },
+                {
+                    "featureType": "ROAD_VEHICLE_TYPE_DELIVERY",
+                    "scoreType": "EXISTENCE",
+                    "score": 0.0,
+                    "updateSource": "INJECTION_TMOB",
+                    "updatedOn": "2021-02-17T21:44:27.863Z"
+                },
+                {
+                    "featureType": "ROAD_VEHICLE_TYPE_EMERGENCY_VEHICLE",
+                    "scoreType": "EXISTENCE",
+                    "score": 0.0,
+                    "updateSource": "INJECTION_TMOB",
+                    "updatedOn": "2021-02-17T21:44:27.863Z"
+                },
+                {
+                    "featureType": "ROAD_VEHICLE_TYPE_PEDESTRIAN",
+                    "scoreType": "EXISTENCE",
+                    "score": 0.0,
+                    "updateSource": "INJECTION_TMOB",
+                    "updatedOn": "2021-02-17T21:44:27.863Z"
+                },
+                {
+                    "featureType": "ROAD_VEHICLE_TYPE_MOTORCYCLE",
+                    "scoreType": "EXISTENCE",
+                    "score": 0.0,
+                    "updateSource": "INJECTION_TMOB",
+                    "updatedOn": "2021-02-17T21:44:27.863Z"
+                },
+                {
+                    "featureType": "ROAD_VEHICLE_TYPE_TAXI",
+                    "scoreType": "EXISTENCE",
+                    "score": 0.0,
+                    "updateSource": "INJECTION_TMOB",
+                    "updatedOn": "2021-02-17T21:44:27.863Z"
+                },
+                {
+                    "featureType": "ROAD_VEHICLE_TYPE_TRUCK",
+                    "scoreType": "EXISTENCE",
+                    "score": 0.0,
+                    "updateSource": "INJECTION_TMOB",
+                    "updatedOn": "2021-02-17T21:44:27.863Z"
+                },
+                {
+                    "featureType": "ROAD_VEHICLE_TYPE_THROUGH_TRAFFIC",
+                    "scoreType": "EXISTENCE",
+                    "score": 0.0,
+                    "updateSource": "INJECTION_TMOB",
+                    "updatedOn": "2021-02-17T21:44:27.863Z"
+                }
+            ],
+            "isDefault": true
+        }
+    ],
+    "divider": [
+        {
+            "confidence": {
+                "featureType": "ROAD_DIVIDER",
+                "scoreType": "EXISTENCE",
+                "score": 0.0,
+                "updateSource": "INJECTION_TMOB",
+                "updatedOn": "2021-02-17T21:44:27.863Z"
+            },
+            "range": {
+                "endOffset": 0.24234019448586158,
+                "startOffset": 0.0
+            },
+            "dividerType": "LEGAL",
+            "isDividerOpenAtStart": false,
+            "isDividerOpenAtEnd": false
+        },
+        {
+            "confidence": {
+                "featureType": "ROAD_DIVIDER",
+                "scoreType": "EXISTENCE",
+                "score": 0.0,
+                "updateSource": "INJECTION_TMOB",
+                "updatedOn": "2021-02-17T21:44:27.863Z"
+            },
+            "range": {
+                "endOffset": 0.3182238864220631,
+                "startOffset": 0.24234019448586158
+            },
+            "dividerType": "LEGAL",
+            "isDividerOpenAtStart": false,
+            "isDividerOpenAtEnd": true
+        },
+        {
+            "confidence": {
+                "featureType": "ROAD_DIVIDER",
+                "scoreType": "EXISTENCE",
+                "score": 0.0,
+                "updateSource": "INJECTION_TMOB",
+                "updatedOn": "2021-02-17T21:44:27.863Z"
+            },
+            "range": {
+                "endOffset": 1.0,
+                "startOffset": 0.3182238864220631
+            },
+            "dividerType": "UNDEFINED",
+            "isDividerOpenAtStart": false,
+            "isDividerOpenAtEnd": false
+        }
+    ],
+    "speedLimit": [
+        {
+            "confidence": {
+                "featureType": "ROAD_SPEED_LIMIT",
+                "scoreType": "EXISTENCE",
+                "score": 0.0,
+                "updateSource": "INJECTION_TMOB",
+                "updatedOn": "2019-09-01T00:00:00Z"
+            },
+            "range": {
+                "endOffset": 0.24234019448586158,
+                "startOffset": 0.0
+            },
+            "appliesTo": "BOTH",
+            "isUnlimited": false,
+            "valueKph": 70,
+            "source": "POSTED_SIGN"
+        },
+        {
+            "confidence": {
+                "featureType": "ROAD_SPEED_LIMIT",
+                "scoreType": "EXISTENCE",
+                "score": 0.0,
+                "updateSource": "INJECTION_TMOB",
+                "updatedOn": "2019-09-01T00:00:00Z"
+            },
+            "range": {
+                "endOffset": 0.7274927847154866,
+                "startOffset": 0.24234019448586158
+            },
+            "appliesTo": "BOTH",
+            "isUnlimited": false,
+            "valueKph": 100,
+            "source": "UNPOSTED"
+        },
+        {
+            "confidence": {
+                "featureType": "ROAD_SPEED_LIMIT",
+                "scoreType": "EXISTENCE",
+                "score": 0.0,
+                "updateSource": "INJECTION_TMOB",
+                "updatedOn": "2024-08-01T00:00:00Z"
+            },
+            "range": {
+                "endOffset": 1.0,
+                "startOffset": 0.7274927847154866
+            },
+            "appliesTo": "BOTH",
+            "isUnlimited": false,
+            "valueKph": 100,
+            "source": "UNPOSTED"
+        }
+    ],
+    "lowMobility": [
+        {
+            "range": {
+                "endOffset": 1.0,
+                "startOffset": 0.0
+            },
+            "value": "UNKNOWN"
+        }
+    ],
+    "builtUpAreaRoad": [
+        {
+            "confidence": {
+                "featureType": "ROAD_BUILT_UP_AREA",
+                "scoreType": "EXISTENCE",
+                "score": 0.0,
+                "updateSource": "INJECTION_TMOB",
+                "updatedOn": "2021-02-17T21:44:27.863Z"
+            },
+            "range": {
+                "endOffset": 1.0,
+                "startOffset": 0.0
+            },
+            "value": "NO_VERIFIED"
+        }
+    ],
+    "gradeCategory": [
+        {
+            "range": {
+                "endOffset": 1.0,
+                "startOffset": 0.0
+            },
+            "value": "NOT_COLLECTED"
+        }
+    ],
+    "overUnderPassIndicator": [
+        {
+            "range": {
+                "endOffset": 1.0,
+                "startOffset": 0.0
+            },
+            "value": 0
+        }
+    ],
+    "conditionalAttributes": [
+        {
+            "range": {
+                "endOffset": 0.15176841856676995,
+                "startOffset": 0.0
+            },
+            "appliesTo": "BOTH",
+            "attributes": [
+                {
+                    "attributeType": "NO_OVERTAKING",
+                    "constraints": [
+                        {
+                            "vehicleTypes": {
+                                "auto": true,
+                                "taxi": true,
+                                "bus": true,
+                                "carpool": true,
+                                "pedestrian": true,
+                                "truck": true,
+                                "throughTraffic": true,
+                                "emergencyVehicle": true,
+                                "delivery": true,
+                                "motorcycle": true,
+                                "bicycle": false,
+                                "hybrid": false,
+                                "alternateFuelVehicle": false,
+                                "autoWithTrailer": false,
+                                "autoTowingCaravan": false
+                            },
+                            "direction": "BOTH"
+                        }
+                    ],
+                    "endOfLink": "WHOLE_LINK",
+                    "publicationData": {
+                        "numericPublicationId": 716949874
+                    },
+                    "noOvertakingDirection": "BOTH"
+                }
+            ]
+        },
+        {
+            "range": {
+                "endOffset": 0.24234019448586158,
+                "startOffset": 0.15176841856676995
+            },
+            "appliesTo": "FROM_START",
+            "attributes": [
+                {
+                    "attributeType": "TRAFFIC_SIGN",
+                    "constraints": [
+                        {
+                            "vehicleTypes": {
+                                "auto": true,
+                                "taxi": true,
+                                "bus": true,
+                                "carpool": true,
+                                "pedestrian": true,
+                                "truck": true,
+                                "throughTraffic": true,
+                                "emergencyVehicle": true,
+                                "delivery": true,
+                                "motorcycle": true,
+                                "bicycle": false,
+                                "hybrid": false,
+                                "alternateFuelVehicle": false,
+                                "autoWithTrailer": false,
+                                "autoTowingCaravan": false
+                            }
+                        }
+                    ],
+                    "endOfLink": "NON_REF_END_OF_LINK",
+                    "publicationData": {
+                        "numericPublicationId": 714535942
+                    },
+                    "signType": "END_OF_ALL_RESTRICTIONS"
+                }
+            ]
+        },
+        {
+            "range": {
+                "endOffset": 0.24234019448586158,
+                "startOffset": 0.15176841856676995
+            },
+            "appliesTo": "BOTH",
+            "attributes": [
+                {
+                    "attributeType": "NO_OVERTAKING",
+                    "constraints": [
+                        {
+                            "vehicleTypes": {
+                                "auto": true,
+                                "taxi": true,
+                                "bus": true,
+                                "carpool": true,
+                                "pedestrian": true,
+                                "truck": true,
+                                "throughTraffic": true,
+                                "emergencyVehicle": true,
+                                "delivery": true,
+                                "motorcycle": true,
+                                "bicycle": false,
+                                "hybrid": false,
+                                "alternateFuelVehicle": false,
+                                "autoWithTrailer": false,
+                                "autoTowingCaravan": false
+                            },
+                            "direction": "BOTH"
+                        }
+                    ],
+                    "endOfLink": "WHOLE_LINK",
+                    "publicationData": {
+                        "numericPublicationId": 716949875
+                    },
+                    "noOvertakingDirection": "BOTH"
+                }
+            ]
+        },
+        {
+            "range": {
+                "endOffset": 0.3182238864220631,
+                "startOffset": 0.24234019448586158
+            },
+            "appliesTo": "TO_START",
+            "attributes": [
+                {
+                    "attributeType": "TRAFFIC_SIGN",
+                    "constraints": [
+                        {
+                            "vehicleTypes": {
+                                "auto": true,
+                                "taxi": true,
+                                "bus": true,
+                                "carpool": true,
+                                "pedestrian": true,
+                                "truck": true,
+                                "throughTraffic": true,
+                                "emergencyVehicle": true,
+                                "delivery": true,
+                                "motorcycle": true,
+                                "bicycle": false,
+                                "hybrid": false,
+                                "alternateFuelVehicle": false,
+                                "autoWithTrailer": false,
+                                "autoTowingCaravan": false
+                            }
+                        }
+                    ],
+                    "endOfLink": "REF_END_OF_LINK",
+                    "publicationData": {
+                        "numericPublicationId": 716949886
+                    },
+                    "signType": "START_OF_NO_OVERTAKING"
+                }
+            ]
+        }
+    ],
+    "truckRoadType": [
+        {
+            "range": {
+                "endOffset": 1.0,
+                "startOffset": 0.0
+            },
+            "appliesTo": "BOTH",
+            "value": "UNDEFINED"
+        }
+    ],
+    "bicycle": [
+        {
+            "range": {
+                "endOffset": 1.0,
+                "startOffset": 0.0
+            },
+            "value": {
+                "protectionType": "UNDEFINED",
+                "directionOverride": "NOT_APPLICABLE",
+                "accessOverride": "UNDEFINED",
+                "path": "UNDEFINED",
+                "trailDifficulty": "UNDEFINED",
+                "sourceData": ""
+            }
+        }
+    ],
+    "speedCategory": [
+        {
+            "range": {
+                "endOffset": 1.0,
+                "startOffset": 0.0
+            },
+            "appliesTo": "BOTH",
+            "value": 5
+        }
+    ],
+    "infrastructureSeparation": null,
+    "expandedInclusion": null,
+    "topologyCharacteristics": {
+        "isUrban": [
+            {
+                "confidence": {
+                    "featureType": "ROAD_URBAN",
+                    "scoreType": "EXISTENCE",
+                    "score": 0.0,
+                    "updateSource": "INJECTION_TMOB",
+                    "updatedOn": "2021-02-17T21:44:27.863Z"
+                },
+                "range": {
+                    "endOffset": 1.0,
+                    "startOffset": 0.0
+                },
+                "value": false
+            }
+        ],
+        "isScenic": [
+            {
+                "range": {
+                    "endOffset": 1.0,
+                    "startOffset": 0.0
+                },
+                "value": false
+            }
+        ],
+        "isTransportVerified": [
+            {
+                "confidence": {
+                    "featureType": "ROAD_TRANSPORT_VERIFIED",
+                    "scoreType": "EXISTENCE",
+                    "score": 0.0,
+                    "updateSource": "INJECTION_TMOB",
+                    "updatedOn": "2021-02-17T21:44:27.863Z"
+                },
+                "range": {
+                    "endOffset": 1.0,
+                    "startOffset": 0.0
+                },
+                "value": true
+            }
+        ],
+        "isPaved": [
+            {
+                "confidence": {
+                    "featureType": "ROAD_PAVED",
+                    "scoreType": "EXISTENCE",
+                    "score": 0.0,
+                    "updateSource": "INJECTION_TMOB",
+                    "updatedOn": "2021-02-17T21:44:27.863Z"
+                },
+                "range": {
+                    "endOffset": 1.0,
+                    "startOffset": 0.0
+                },
+                "value": true
+            }
+        ],
+        "isFourWheelDrive": [
+            {
+                "range": {
+                    "endOffset": 1.0,
+                    "startOffset": 0.0
+                },
+                "value": false
+            }
+        ],
+        "isTollway": [
+            {
+                "range": {
+                    "endOffset": 1.0,
+                    "startOffset": 0.0
+                },
+                "value": false
+            }
+        ],
+        "isMotorway": [
+            {
+                "range": {
+                    "endOffset": 1.0,
+                    "startOffset": 0.0
+                },
+                "value": false
+            }
+        ],
+        "isBoatFerry": [
+            {
+                "confidence": {
+                    "featureType": "ROAD_FERRY",
+                    "scoreType": "EXISTENCE",
+                    "score": 0.0,
+                    "updateSource": "INJECTION_TMOB",
+                    "updatedOn": "2021-02-17T21:44:27.863Z"
+                },
+                "range": {
+                    "endOffset": 1.0,
+                    "startOffset": 0.0
+                },
+                "value": false
+            }
+        ],
+        "isRailFerry": [
+            {
+                "confidence": {
+                    "featureType": "ROAD_FERRY",
+                    "scoreType": "EXISTENCE",
+                    "score": 0.0,
+                    "updateSource": "INJECTION_TMOB",
+                    "updatedOn": "2021-02-17T21:44:27.863Z"
+                },
+                "range": {
+                    "endOffset": 1.0,
+                    "startOffset": 0.0
+                },
+                "value": false
+            }
+        ],
+        "isExpressLanes": [
+            {
+                "range": {
+                    "endOffset": 1.0,
+                    "startOffset": 0.0
+                },
+                "value": false
+            }
+        ],
+        "isReversible": [
+            {
+                "range": {
+                    "endOffset": 1.0,
+                    "startOffset": 0.0
+                },
+                "value": false
+            }
+        ],
+        "isFrontage": [
+            {
+                "confidence": {
+                    "featureType": "ROAD_FRONTAGE",
+                    "scoreType": "EXISTENCE",
+                    "score": 0.0,
+                    "updateSource": "INJECTION_TMOB",
+                    "updatedOn": "2021-02-17T21:44:27.863Z"
+                },
+                "range": {
+                    "endOffset": 1.0,
+                    "startOffset": 0.0
+                },
+                "value": false
+            }
+        ],
+        "isMultiplyDigitised": [
+            {
+                "confidence": {
+                    "featureType": "ROAD_MULTIPLY_DIGITIZED",
+                    "scoreType": "EXISTENCE",
+                    "score": 0.0,
+                    "updateSource": "INJECTION_TMOB",
+                    "updatedOn": "2021-02-17T21:44:27.863Z"
+                },
+                "range": {
+                    "endOffset": 1.0,
+                    "startOffset": 0.0
+                },
+                "value": false
+            }
+        ],
+        "isPublicAccessRoad": [
+            {
+                "confidence": {
+                    "featureType": "ROAD_PUBLIC_ACCESS",
+                    "scoreType": "EXISTENCE",
+                    "score": 0.0,
+                    "updateSource": "INJECTION_TMOB",
+                    "updatedOn": "2021-02-17T21:44:27.863Z"
+                },
+                "range": {
+                    "endOffset": 1.0,
+                    "startOffset": 0.0
+                },
+                "value": true
+            }
+        ],
+        "isParkingLotRoad": [
+            {
+                "range": {
+                    "endOffset": 1.0,
+                    "startOffset": 0.0
+                },
+                "value": false
+            }
+        ],
+        "isMovableBridge": [
+            {
+                "range": {
+                    "endOffset": 1.0,
+                    "startOffset": 0.0
+                },
+                "value": false
+            }
+        ],
+        "isBridge": [
+            {
+                "confidence": {
+                    "featureType": "ROAD_BRIDGE",
+                    "scoreType": "EXISTENCE",
+                    "score": 0.95,
+                    "updateSource": "INJECTION_TMOB",
+                    "updatedOn": "2021-02-17T21:44:27.863Z"
+                },
+                "range": {
+                    "endOffset": 1.0,
+                    "startOffset": 0.0
+                },
+                "value": false
+            }
+        ],
+        "isTunnel": [
+            {
+                "confidence": {
+                    "featureType": "ROAD_TUNNEL",
+                    "scoreType": "EXISTENCE",
+                    "score": 0.95,
+                    "updateSource": "INJECTION_TMOB",
+                    "updatedOn": "2021-02-17T21:44:27.863Z"
+                },
+                "range": {
+                    "endOffset": 1.0,
+                    "startOffset": 0.0
+                },
+                "value": false
+            }
+        ],
+        "isRamp": [
+            {
+                "confidence": {
+                    "featureType": "ROAD_RAMP",
+                    "scoreType": "EXISTENCE",
+                    "score": 0.95,
+                    "updateSource": "INJECTION_TMOB",
+                    "updatedOn": "2021-02-17T21:44:27.863Z"
+                },
+                "range": {
+                    "endOffset": 1.0,
+                    "startOffset": 0.0
+                },
+                "value": false
+            }
+        ],
+        "isLimitedAccessRoad": [
+            {
+                "confidence": {
+                    "featureType": "ROAD_LIMITED_ACCESS",
+                    "scoreType": "EXISTENCE",
+                    "score": 0.95,
+                    "updateSource": "INJECTION_TMOB",
+                    "updatedOn": "2021-02-17T21:44:27.863Z"
+                },
+                "range": {
+                    "endOffset": 1.0,
+                    "startOffset": 0.0
+                },
+                "value": false
+            }
+        ],
+        "isControlledAccess": [
+            {
+                "confidence": {
+                    "featureType": "ROAD_CONTROLLED_ACCESS",
+                    "scoreType": "EXISTENCE",
+                    "score": 0.04,
+                    "updateSource": "INJECTION_TMOB",
+                    "updatedOn": "2021-02-17T21:44:27.863Z"
+                },
+                "range": {
+                    "endOffset": 1.0,
+                    "startOffset": 0.0
+                },
+                "value": false
+            }
+        ],
+        "isCarpoolRoad": [
+            {
+                "range": {
+                    "endOffset": 1.0,
+                    "startOffset": 0.0
+                },
+                "value": false
+            }
+        ],
+        "isPrivateRoad": [
+            {
+                "confidence": {
+                    "featureType": "ROAD_PRIVATE",
+                    "scoreType": "EXISTENCE",
+                    "score": 0.0,
+                    "updateSource": "INJECTION_TMOB",
+                    "updatedOn": "2021-02-17T21:44:27.863Z"
+                },
+                "range": {
+                    "endOffset": 1.0,
+                    "startOffset": 0.0
+                },
+                "value": false
+            }
+        ],
+        "isDeliveryRoad": [
+            {
+                "range": {
+                    "endOffset": 1.0,
+                    "startOffset": 0.0
+                },
+                "value": false
+            }
+        ],
+        "isPoiAccessRoad": [
+            {
+                "confidence": {
+                    "featureType": "ROAD_POI_ACCESS_ROAD",
+                    "scoreType": "EXISTENCE",
+                    "score": 0.95,
+                    "updateSource": "INJECTION_TMOB",
+                    "updatedOn": "2021-02-17T21:44:27.863Z"
+                },
+                "range": {
+                    "endOffset": 1.0,
+                    "startOffset": 0.0
+                },
+                "value": false
+            }
+        ],
+        "isPriority": [
+            {
+                "range": {
+                    "endOffset": 1.0,
+                    "startOffset": 0.0
+                },
+                "value": true
+            }
+        ],
+        "isDiminishedPriority": [
+            {
+                "range": {
+                    "endOffset": 1.0,
+                    "startOffset": 0.0
+                },
+                "value": false
+            }
+        ],
+        "isAligned": [
+            {
+                "range": {
+                    "endOffset": 1.0,
+                    "startOffset": 0.0
+                },
+                "value": false
+            }
+        ],
+        "isHistorical4WD": [
+            {
+                "range": {
+                    "endOffset": 1.0,
+                    "startOffset": 0.0
+                },
+                "value": false
+            }
+        ],
+        "isAdasCompliant": [
+            {
+                "range": {
+                    "endOffset": 1.0,
+                    "startOffset": 0.0
+                },
+                "value": true
+            }
+        ],
+        "isLongHaul": [
+            {
+                "range": {
+                    "endOffset": 1.0,
+                    "startOffset": 0.0
+                },
+                "value": false
+            }
+        ],
+        "isStubLink": [
+            {
+                "range": {
+                    "endOffset": 1.0,
+                    "startOffset": 0.0
+                },
+                "value": false
+            }
+        ],
+        "isDetailedCity": [
+            {
+                "range": {
+                    "endOffset": 1.0,
+                    "startOffset": 0.0
+                },
+                "value": true
+            }
+        ],
+        "isElevated": [
+            {
+                "range": {
+                    "endOffset": 1.0,
+                    "startOffset": 0.0
+                },
+                "value": false
+            }
+        ]
+    },
+    "surfaceType": [
+        {
+            "range": {
+                "endOffset": 1.0,
+                "startOffset": 0.0
+            },
+            "appliesTo": "BOTH",
+            "value": "UNDEFINED"
+        }
+    ],
+    "averageSpeed": [
+        {
+            "range": {
+                "endOffset": 1.0,
+                "startOffset": 0.0
+            },
+            "appliesTo": "BOTH",
+            "valueKph": 60
+        }
+    ],
+    "pedestrianPreferred": [
+        {
+            "range": {
+                "endOffset": 1.0,
+                "startOffset": 0.0
+            },
+            "value": "UNKNOWN"
+        }
+    ],
+    "median": null,
+    "isInProcessData": [
+        {
+            "range": {
+                "endOffset": 1.0,
+                "startOffset": 0.0
+            },
+            "value": false
+        }
+    ],
+    "leftAdmin": [
+        {
+            "confidence": {
+                "featureType": "ROAD_ADMIN_INFORMATION",
+                "scoreType": "EXISTENCE",
+                "score": 0.0,
+                "updateSource": "INJECTION_TMOB",
+                "updatedOn": "2021-02-17T21:44:27.863Z"
+            },
+            "range": {
+                "endOffset": 1.0,
+                "startOffset": 0.0
+            },
+            "value": {
+                "id": "urn:here::here:Admin:20170782",
+                "featureType": "Admin",
+                "referenceName": "adminId"
+            }
+        }
+    ],
+    "rightAdmin": [
+        {
+            "confidence": {
+                "featureType": "ROAD_ADMIN_INFORMATION",
+                "scoreType": "EXISTENCE",
+                "score": 0.0,
+                "updateSource": "INJECTION_TMOB",
+                "updatedOn": "2021-02-17T21:44:27.863Z"
+            },
+            "range": {
+                "endOffset": 1.0,
+                "startOffset": 0.0
+            },
+            "value": {
+                "id": "urn:here::here:Admin:20170782",
+                "featureType": "Admin",
+                "referenceName": "adminId"
+            }
+        }
+    ],
+    "raisedSurfaceArea": null,
+    "linkAccuracy": [
+        {
+            "confidence": {
+                "featureType": "ROAD_LINK_ACCURACY",
+                "scoreType": "EXISTENCE",
+                "score": 0.0,
+                "updateSource": "INJECTION_TMOB",
+                "updatedOn": "2021-02-17T21:44:27.863Z"
+            },
+            "range": {
+                "endOffset": 1.0,
+                "startOffset": 0.0
+            },
+            "value": 3
+        }
+    ],
+    "superElevationClass": [
+        {
+            "confidence": {
+                "featureType": "ROAD_SUPERELEVATION_CLASS",
+                "scoreType": "EXISTENCE",
+                "score": 0.0,
+                "updateSource": "INJECTION_TMOB"
+            },
+            "range": {
+                "endOffset": 1.0,
+                "startOffset": 0.0
+            },
+            "value": "FLAT"
+        }
+    ],
+    "rdsTmcCodes": [
+        {
+            "range": {
+                "endOffset": 1.0,
+                "startOffset": 0.0
+            },
+            "value": []
+        }
+    ],
+    "trafficLocationReferences": [
+        {
+            "range": {
+                "endOffset": 1.0,
+                "startOffset": 0.0
+            }
+        }
+    ],
+    "topologyClassType": [
+        {
+            "range": {
+                "endOffset": 1.0,
+                "startOffset": 0.0
+            },
+            "value": "UNDEFINED"
+        }
+    ],
+    "externalReferences": [
+        {
+            "segment": {
+                "id": "urn:here::here:Road:703708793",
+                "referencePoint": {
+                    "type": "Point",
+                    "coordinates": [
+                        8.16824,
+                        49.14057,
+                        0.0
+                    ]
+                },
+                "featureType": "Road",
+                "referenceName": "roadId"
+            },
+            "orientation": "FROM_FIRST",
+            "range": {
+                "endOffset": 0.15176841856676995,
+                "startOffset": 0.0
+            }
+        },
+        {
+            "segment": {
+                "id": "urn:here::here:Road:832841018",
+                "referencePoint": {
+                    "type": "Point",
+                    "coordinates": [
+                        8.16928,
+                        49.14087,
+                        0.0
+                    ]
+                },
+                "featureType": "Road",
+                "referenceName": "roadId"
+            },
+            "orientation": "FROM_FIRST",
+            "range": {
+                "endOffset": 0.24234019448586158,
+                "startOffset": 0.15176841856676995
+            }
+        },
+        {
+            "segment": {
+                "id": "urn:here::here:Road:1266512906",
+                "referencePoint": {
+                    "type": "Point",
+                    "coordinates": [
+                        8.1699,
+                        49.14105,
+                        0.0
+                    ]
+                },
+                "featureType": "Road",
+                "referenceName": "roadId"
+            },
+            "orientation": "FROM_FIRST",
+            "range": {
+                "endOffset": 0.3182238864220631,
+                "startOffset": 0.24234019448586158
+            }
+        },
+        {
+            "segment": {
+                "id": "urn:here::here:Road:1337170472",
+                "referencePoint": {
+                    "type": "Point",
+                    "coordinates": [
+                        8.17042,
+                        49.1412,
+                        0.0
+                    ]
+                },
+                "featureType": "Road",
+                "referenceName": "roadId"
+            },
+            "orientation": "FROM_FIRST",
+            "range": {
+                "endOffset": 0.7274927847154866,
+                "startOffset": 0.3182238864220631
+            }
+        },
+        {
+            "segment": {
+                "id": "urn:here::here:Road:1337170473",
+                "referencePoint": {
+                    "type": "Point",
+                    "coordinates": [
+                        8.17323,
+                        49.142,
+                        0.0
+                    ]
+                },
+                "featureType": "Road",
+                "referenceName": "roadId"
+            },
+            "orientation": "FROM_FIRST",
+            "range": {
+                "endOffset": 1.0,
+                "startOffset": 0.7274927847154866
+            }
+        }
+    ],
+    "gnssReliability": null,
+    "rightOfWayRegulation": [
+        {
+            "range": {
+                "endOffset": 1.0,
+                "startOffset": 0.0
+            },
+            "appliesTo": "BOTH",
+            "value": "RIGHT_OF_WAY"
+        }
+    ],
+    "coverageIndicator": [
+        {
+            "range": {
+                "endOffset": 1.0,
+                "startOffset": 0.0
+            },
+            "value": "PRIME"
+        }
+    ],
+    "priority": [
+        {
+            "confidence": {
+                "featureType": "UNDEFINED",
+                "scoreType": "EXISTENCE",
+                "score": 0.0,
+                "updateSource": "INJECTION_TMOB",
+                "updatedOn": "2021-02-17T21:44:27.863Z"
+            },
+            "range": {
+                "endOffset": 1.0,
+                "startOffset": 0.0
+            },
+            "appliesTo": "BOTH",
+            "value": true,
+            "source": "PR_SIGN"
+        }
+    ],
+    "startNodePublicationId": {
+        "numericPublicationId": 551280425
+    },
+    "endNodePublicationId": {
+        "numericPublicationId": 604932298
+    },
+    "@ns:com:here:mom:meta": {
+        "owner": "topology_adapter_service",
+        "lastUpdatedBy": "topology_adapter_service",
+        "updatedByUser": "topology_adapter_service",
+        "modelVersion": "3.15.1-backport-iso-country-code",
+        "sourceId": "TMOB"
+    },
+    "featureType": "Topology",
+    "@ns:com:here:mom:delta": null
+}
