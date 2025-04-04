@@ -211,5 +211,5 @@ def solutionhelper(geojson_data,signjson_data,topojson_data,probedf,i):
         # plt.show()
 
         return validate_topology(allpossibledict)
-
-print(solution(caseid = '23612006'))
+if __name__ =='__mian__':
+    print(solution(caseid = '23612006'))
