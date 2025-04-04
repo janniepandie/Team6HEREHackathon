@@ -19,5 +19,7 @@ if none nearby motorway is found. It is case 4.
 
 **Environment Setup**
 
+1. Clone repository
+2. 
 
 **Instructions**
