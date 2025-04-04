@@ -29,7 +29,7 @@ If the sign exist:
 ```
 pip3 install pandas flask flask-cors numpy
 ```
-3. Install Node.js [here](https://nodejs.org/en). Or if you have Homebrew installed, run
+3. Install Node.js [here](https://nodejs.org/en). Alternatively, if you have Homebrew installed, run
 ```
 brew install node
 ```
