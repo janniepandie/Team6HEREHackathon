@@ -7,6 +7,7 @@ Assessing whether a WSIGN406 error (Motorway sign is associated to a road that h
 3. Sign exists and is associated with the right road, but the “PEDESTRIAN == TRUE” attribute is wrong
 4. Legitimate Exception
 
+
 ## **Our Solution**
 See more details in our presentation [here](https://docs.google.com/presentation/d/17yF1xy4OnIflHMS86F4-_w6f35uXtHyCLkViw6w1OWM/edit?usp=sharing).
 
@@ -23,6 +24,7 @@ If the sign exist:
 - If no nearby motorway is found and none of the previous cases apply, it is identified as Scenario 4.
 
 
+
 ## **Environment Setup**
 
 1. Clone repository
@@ -30,21 +32,21 @@ If the sign exist:
 ```
 pip3 install pandas flask flask-cors numpy
 ```
+*Note: Use pip3 instead of pip if using Python 3.*
 3. Install Node.js [here](https://nodejs.org/en). Alternatively, if you have Homebrew installed, run
 ```
 brew install node
 ```
-*Note: Use pip3 instead of pip if using Python 3.*
+
 
 
 ## **Instructions**
 
-1. In your terminal, run
-2. To start the Flask application, run
+1. To start the Flask application, run
 ```
 python3 points.py
 ```
-3. Open a *separate* terminal, run
+2. In a *__separate__* terminal, run
 ```
 npx http-server
 ```
