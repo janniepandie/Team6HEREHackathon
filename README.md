@@ -23,6 +23,8 @@ If the sign exists:
   - If the sign is associated with the wrong road and there is a nearby motorway, it is identified as Scenario 2.
 - If no nearby motorway is found and none of the previous cases apply, it is identified as Scenario 4.
 
+<img width="1512" alt="Screenshot 2025-04-04 at 2 10 37 PM" src="https://github.com/user-attachments/assets/c668766c-bc99-4eb8-b38b-a7a8063f5fa6" />
+
 
 
 ## **Environment Setup**
@@ -38,8 +40,6 @@ pip3 install pandas flask flask-cors numpy
 ```
 brew install node
 ```
-
-
 
 ## **Instructions**
 
