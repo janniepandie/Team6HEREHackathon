@@ -129,13 +129,13 @@ def solutionhelper(geojson_data,signjson_data,topojson_data,probedf,i):
     for j in range(0,len(signjson_data['features'])):
         c2 = signjson_data['features'][j]['properties']['id']
         if signjson_data['features'][j]['properties']['signType'] == 'MOTORWAY' and signid == c2:
-            existingscore = signjson_data['features'][j]['properties']['confidence']['simpleScores'][0]['existenceProbability']
+            score_dict = signjson_data['features'][j]['properties']['confidence']['simpleScores'][0]
+            existingscore = score_dict.get('existenceProbability', score_dict.get('score', None))
             observedict = signjson_data['features'][j]['properties']['observationCounts']
-            observescore = observedict['NInputsObserved']/observedict['NInputsObservable']
+            observescore = int(observedict['NInputsObserved'])/int(observedict['NInputsObservable'])
     for x in range(0,len(topojson_data['features'])):
         c3 = topojson_data['features'][x]['properties']['id']
         if topo == c3:
-            motorwaydict = topojson_data['features'][x]['properties']['topologyCharacteristics']['isMotorway'][0]
             asscoiatedtopo = topojson_data['features'][x]
             asscoiatedindex = x
 
@@ -212,4 +212,4 @@ def solutionhelper(geojson_data,signjson_data,topojson_data,probedf,i):
 
         return validate_topology(allpossibledict)
 
-# print(solution(caseid = '23612006'))
+# print(solution(caseid = '23608577'))
