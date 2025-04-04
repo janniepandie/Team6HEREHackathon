@@ -6,12 +6,10 @@ Assessing whether a WSIGN406 error (Motorway sign is associated to a road that h
 2. Sign exists but is associated with the wrong road
 3. Sign exists and is associated with the right road, but the “PEDESTRIAN == TRUE” attribute is wrong
 4. Legitimate Exception
-Communicating results in an intuitive manner
-
 
 ## **Our Solution**
-
-We utilize the provided GeoJSON data to test conditions that . We then display the results using HERE Maps API with Javascript and color-coded map points.
+See more details in our presentation [here](https://docs.google.com/presentation/d/17yF1xy4OnIflHMS86F4-_w6f35uXtHyCLkViw6w1OWM/edit?usp=sharing).
+We utilize the provided GeoJSON data to create testing conditions to identify which Scenario the WSIGN406 error falls under and then determine which changes need to be made (if necessary). We then display the results using HERE Maps API with Javascript and color-coded map points.
 Our approach:
 1. Determine if the sign exists based on confidence score of "EXISTENCE" and "obervationCounts" attributes (Scenario 1)
 If the sign exist:
