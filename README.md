@@ -1,6 +1,6 @@
-# **Team 6 HERE Chicago Hackathon**
+## **Team 6 HERE Chicago Hackathon**
 
-**Problem**
+# **Problem**
 Assessing whether a WSIGN406 error (Motorway sign is associated to a road that has a range for Pedestrian = TRUE within 20m distance or its associated road is outside the range of 20m) is caused by 1 of 4 scenarios:
 1. Sign no longer exists
 2. Sign exists but is associated with the wrong road
@@ -9,9 +9,9 @@ Assessing whether a WSIGN406 error (Motorway sign is associated to a road that h
 Communicating results in an intuitive manner
 
 
-**Our Solution**
+# **Our Solution**
 
-Our solution utilizes the provided GeoJSON data and displays the results using HERE Maps API with Javascript and color-coded map points.
+We utilize the provided GeoJSON data to test conditions that . We then display the results using HERE Maps API with Javascript and color-coded map points.
 Our approach:
 1. Determine if the sign exists based on confidence score of "EXISTENCE" and "obervationCounts" attributes (Scenario 1)
 If the sign exist:
@@ -24,7 +24,7 @@ Based on is motorway and pedestrian attribute.
 - If no nearby motorway is found and none of the previous cases apply, it is identified as Scenario 4.
 
 
-**Environment Setup**
+# **Environment Setup**
 
 1. Clone repository
 2. To install necessary packages, run
@@ -38,7 +38,7 @@ brew install node
 3. 
 
 
-**Instructions**
+# **Instructions**
 1. In your terminal, run
 2. To start the Flask application, run
 ```
