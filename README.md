@@ -1,5 +1,7 @@
 # **Team 6 HERE Chicago Hackathon**
 
-# **What does our project do?**
+**Problem**
 
-# **Environment Setup**
+**Our Solution**
+
+**Environment Setup**
