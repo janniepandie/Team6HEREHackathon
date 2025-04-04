@@ -1,19 +1,55 @@
 # **Team 6 HERE Chicago Hackathon**
 
-**Problem**
+## **Problem**
+Assessing whether a WSIGN406 error (Motorway sign is associated to a road that has a range for Pedestrian = TRUE within 20m distance or its associated road is outside the range of 20m) is caused by 1 of 4 scenarios:
+1. Sign no longer exists
+2. Sign exists but is associated with the wrong road
+3. Sign exists and is associated with the right road, but the “PEDESTRIAN == TRUE” attribute is wrong
+4. Legitimate Exception
 
-**Our Solution**
-Our solution is based one geojson's data. OUr approach is:
-Determine the Sign exsitance based on existing confidence score and obervation score(obervation/possible obervation times).
+## **Our Solution**
+See more details in our presentation [here](https://docs.google.com/presentation/d/17yF1xy4OnIflHMS86F4-_w6f35uXtHyCLkViw6w1OWM/edit?usp=sharing).
+We utilize the provided GeoJSON data to create testing conditions to identify which Scenario the WSIGN406 error falls under and then determine which changes need to be made (if necessary). Using Python Flask to handle backend data processing, we serve our results to a JavaScript frontend that leverages the HERE Maps API. The data is visualized with color-coded map points to create an intuitive and visually engaging user interface.
+
+Our approach:
+1. Determine if the sign exists based on confidence score of "EXISTENCE" and "obervationCounts" attributes (Scenario 1)
 If the sign exist:
-We will compute the topology nearby within 20 meters of the sign and store them as potential topology. 
-We will decide our sign falls in which part of the topology and use geojson in topology to determine if it is motorway. ALso record the pedestrian attribute.
-Based on is motorway and pedestrian attribute.
-if asscoiated road is out of 20 meters radius. It is associated with the wrong road​.
-If asscoiated is motorway, it is Case 3, correct association, incorrect road attribution. 
-if asscoiated is not motorway,it is associated with the wrong road​.
-if associated with the wrong road, we will choose a motorway near the sign as the corrected assications. Case 2.
-if none nearby motorway is found. It is case 4.
-**Environment Setup**
+2. Calculate distance of nearby roads to identify and store the topology within 20 meters of the sign 
+3. Using the "isMotorway" and "pedestrian" topology attributes, we identified Scenarios 2-4 using the following conditions:
+- If the associated road is a motorway, it is identitfied as Scenario 3.
+- If the associated road is out of 20m radius and/or not a motorway, it may be associated with the wrong road​.
+- If the sign is associated with the wrong road and there is a nearby motorway, it is identified as Scenario 2.
+- If no nearby motorway is found and none of the previous cases apply, it is identified as Scenario 4.
 
-**Instructions**
+
+## **Environment Setup**
+
+1. Clone repository
+2. To install necessary packages, run
+```
+pip3 install pandas flask flask-cors
+```
+and
+```
+brew install node
+```
+3. 
+
+
+## **Instructions**
+
+1. In your terminal, run
+2. To start the Flask application, run
+```
+python3 points.py
+```
+3. Open a *separate* terminal, run
+```
+npx http-server
+```
+4. Navigate to http://localhost:8080/map.html to see the results!
+The map's pin colors correlate to the number scenario the WSIGN406 error has been identified with.
+- Red: Scenario 1
+- Blue: Scenario 2
+- Green: Scenario 3
+- Purple: Scenario 4
