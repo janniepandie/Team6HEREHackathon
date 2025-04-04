@@ -14,10 +14,9 @@ def validate_topology(topology_list):
     3. If no nearby motorway found, check probe data for pedestrians
     """
     
-    # Case 1: Correct pedestrian flag for motorway segments
+    # Case 3: Correct pedestrian flag for motorway segments
     for topo in topology_list:
         if topo['asscoiate'] and topo['ismotorway']:
-            topo['pedestrian'] = False
             return 3 ,(f"Case 3: Corrected pedestrian to False for motorway segment {topo['topoid']}")
     
     # Case 2: Find nearby motorway for non-motorway segments
@@ -125,6 +124,7 @@ def solution(caseid):
 def solutionhelper(geojson_data,signjson_data,topojson_data,probedf,i):
     signid = geojson_data['features'][i]['properties']['Feature ID']
     ermes = geojson_data['features'][i]['properties']['Error Message']
+    violationid = str(geojson_data['features'][i]['properties']['Partition ID']) + str(i)
     topo = re.search(r'urn:here::here:Topology:(\d+)', ermes).group(0)
     for j in range(0,len(signjson_data['features'])):
         c2 = signjson_data['features'][j]['properties']['id']
@@ -208,8 +208,11 @@ def solutionhelper(geojson_data,signjson_data,topojson_data,probedf,i):
         plt.grid(True, linestyle='--', alpha=0.7)
         plt.legend()
         plt.tight_layout()
-        # plt.show()
+        pngname = 'plot'+violationid+'.png'
+        plt.savefig(pngname)
+        plt.clf()
 
         return validate_topology(allpossibledict)
-
-# print(solution(caseid = '23608577'))
+cases = ['23608578','23608580','23608592','23612004','23612006','23612035']
+for c in cases:
+    print(solution(c))
