@@ -11,7 +11,7 @@ Assessing whether a WSIGN406 error (Motorway sign is associated to a road that h
 See more details in our presentation [here](https://docs.google.com/presentation/d/17yF1xy4OnIflHMS86F4-_w6f35uXtHyCLkViw6w1OWM/edit?usp=sharing).
 We utilize the provided GeoJSON data to create testing conditions to identify which Scenario the WSIGN406 error falls under and then determine which changes need to be made (if necessary). Using Python Flask to handle backend data processing, we serve our results to a JavaScript frontend that leverages the HERE Maps API. The data is visualized with color-coded map points to create an intuitive and visually engaging user interface.
 
-Our approach:
+**Our approach**:
 1. Determine if the sign exists based on confidence score of "EXISTENCE" and "obervationCounts" attributes (Scenario 1)
 If the sign exist:
 2. Calculate distance of nearby roads to identify and store the topology within 20 meters of the sign 
@@ -27,13 +27,13 @@ If the sign exist:
 1. Clone repository
 2. To install necessary packages, run
 ```
-pip3 install pandas flask flask-cors
+pip3 install pandas flask flask-cors numpy
 ```
-and
+3. Install Node.js [here](https://nodejs.org/en). Or if you have Homebrew installed, run
 ```
 brew install node
 ```
-3. 
+*Note: Use pip3 instead of pip if using Python 3.*
 
 
 ## **Instructions**
@@ -47,7 +47,7 @@ python3 points.py
 ```
 npx http-server
 ```
-4. Navigate to http://localhost:8080/map.html to see the results!
+4. Navigate to http://localhost:8080/map.html in your browser to see the results!
 The map's pin colors correlate to the number scenario the WSIGN406 error has been identified with.
 - Red: Scenario 1
 - Blue: Scenario 2
