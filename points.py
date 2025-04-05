@@ -11,8 +11,6 @@ validation_points = []
 tile_ids = ['23608578','23608580','23608592','23612004','23612006']
 scenarios = []
 
-# print(method.solution('23608578')[0]["scenario"])
-
 for id in tile_ids:
     results = method.solution(id)
     scenarios.append(results[0]["scenario"])
