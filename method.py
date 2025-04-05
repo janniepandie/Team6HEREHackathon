@@ -101,7 +101,7 @@ def coordcheck(c1s,c2,distance_threshold):
     return [False, []]
 
 def solution(caseid):
-    prefix = caseid + '/' + caseid
+    prefix = 'data_set/'+ caseid + '/' + caseid
     with open(prefix +'_validations.geojson', 'r') as f:
         geojson_data = json.load(f)
     with open(prefix +'_full_topology_data.geojson', 'r') as f:
@@ -213,6 +213,6 @@ def solutionhelper(geojson_data,signjson_data,topojson_data,probedf,i):
         plt.clf()
 
         return validate_topology(allpossibledict)
-cases = ['23608578','23608580','23608592','23612004','23612006','23612035']
-for c in cases:
-    print(solution(c))
+# cases = ['23608578','23608580','23608592','23612004','23612006','23612035']
+# # for c in cases:
+# #     print(solution(c))

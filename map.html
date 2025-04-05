@@ -53,16 +53,32 @@
     fetch('http://127.0.0.1:5000/api/array')
         .then(response => response.json())
         .then(data => {
-            data.forEach(item => {
-                const { latitude: lat, longitude: lng } = item;
-                const marker = new H.map.Marker({ lat: lat, lng: lng }, {icon:blue_pin});
-                group.addObject(marker);  
-                console.log("adding marker");
-                });
-                map.addObject(group);
-                console.log("Markers in group:", group.getObjects().length);
-                map.getViewModel().setLookAtData({ bounds: group.getBoundingBox()});
+            const { points, scenarios } = data;
+            
+            points.forEach((point, index) => {
+            const { longitude: lng, latitude: lat } = point;
+            const scenario = scenarios[index];
+
+            let icon = red_pin;
+            switch (scenario) {
+              case 2:
+                icon = blue_pin;
+                break;
+              case 3:
+                icon = green_pin;
+                break;
+              case 4:
+                icon = purple_pin;
+                break;
+              default:
+                icon = red_pin;
+            }
+            const marker = new H.map.Marker({ lat: lat, lng: lng }, {icon:icon});
+            group.addObject(marker);  
         });
+        map.addObject(group);
+        map.getViewModel().setLookAtData({ bounds: group.getBoundingBox() });
+      });
   </script>
 </body>
 </html>
