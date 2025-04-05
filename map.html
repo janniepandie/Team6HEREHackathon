@@ -48,7 +48,7 @@
     const behavior = new H.mapevents.Behavior(new H.mapevents.MapEvents(map));
     const ui = H.ui.UI.createDefault(map, defaultLayers);
 
-    // Get validation points from back-end & add markers for each validation point - ADD COLOR CODING
+    // Get validation points from back-end & add markers for each validation point
     const group = new H.map.Group();
     fetch('http://127.0.0.1:5000/api/array')
         .then(response => response.json())
