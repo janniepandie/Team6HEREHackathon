@@ -1,4 +1,4 @@
-# **Team 6 HERE Chicago Hackathon**
+# **Team 6 HERE Chicago Hackathon - 3rd Place**
 
 ## **Problem**
 Assessing whether a WSIGN406 error (Motorway sign is associated to a road that has a range for Pedestrian = TRUE within 20m distance or its associated road is outside the range of 20m) is caused by 1 of 4 scenarios:
