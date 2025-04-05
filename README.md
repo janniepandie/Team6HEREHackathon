@@ -11,7 +11,7 @@ Assessing whether a WSIGN406 error (Motorway sign is associated to a road that h
 ## **Our Solution**
 *See more details in our presentation [here](https://docs.google.com/presentation/d/17yF1xy4OnIflHMS86F4-_w6f35uXtHyCLkViw6w1OWM/edit?usp=sharing).*
 
-We utilize HERE's GeoJSON data to create testing conditions to identify which Scenario the WSIGN406 error falls under and then determine which changes need to be made (if necessary). Using Python Flask to handle backend data processing, we serve our results to a JavaScript frontend that leverages the HERE Maps API. The data is visualized with color-coded map points to create an intuitive and visually engaging user interface.
+We utilize HERE's GeoJSON data to create testing conditions to identify which Scenario the WSIGN406 error falls under and then determine which changes need to be made (if necessary). Using Python Flask to handle backend data processing, we serve our results to an HTML/JavaScript frontend that leverages the HERE Maps API. The data is visualized with color-coded map points to create an intuitive and visually engaging user interface.
 
 **Our approach**:
 1. Determine if the sign exists based on confidence score of "EXISTENCE" and "obervationCounts" attributes (Scenario 1)
